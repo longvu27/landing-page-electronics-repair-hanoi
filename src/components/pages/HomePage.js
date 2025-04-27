@@ -6,19 +6,18 @@ export default function HomePage() {
 
   return (
     <div className={s.wrapper}>
-      <h1>Sửa Chữa Điện Tử Điện Lạnh Tận Nhà</h1>
-      <h2>Dịch vụ sửa tivi, máy lạnh, tủ lạnh...</h2>
+      <h1>Sửa Chữa Điện Nước Điện Lạnh Tại Thanh Hoá</h1>
+      <p>Dịch vụ sửa máy lạnh, tủ lạnh, máy lọc nước...</p>
 
-      <Image src={imgRepair} alt="Sửa chữa điện tử điện lạnh tận nhà" width={800} height={600} />
+      <Image src={imgRepair} alt="Sửa chữa điện tử điện lạnh tại Thanh Hoá" width={800} height={600} />
 
       <div >
-        <h3 >Dịch vụ của chúng tôi</h3>
-        <ul >
-          <li>Sửa chữa Tivi LCD, LED, Smart TV</li>
-          <li>Sửa chữa Máy lạnh, bảo trì máy lạnh</li>
-          <li>Sửa chữa Tủ lạnh, máy giặt</li>
-          <li>Tư vấn miễn phí, báo giá nhanh chóng</li>
-        </ul>
+        <h2 >Dịch vụ của chúng tôi tại Thanh Hoá</h2>
+        <h3>Sửa Điều Hoà Tại Nhà Thanh Hoá</h3>
+        <h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Thanh Hoá</h4>
+        <h5>Sửa chữa Tủ lạnh, máy giặt tại Thanh Hoá</h5>
+        <h6>Sửa chữa máy lọc nước tại Thanh Hoá</h6>
+        <p>Tư vấn miễn phí, báo giá nhanh chóng </p>
       </div>
 
       <div >

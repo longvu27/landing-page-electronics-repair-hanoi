@@ -10,19 +10,19 @@ const quicksand = Quicksand({
 
 export const metadata = {
   metadataBase: new URL(`https://suachuadienlanhthanhhoa.vercel.app/`),
-  title: "Sửa Chữa Điện Tử Điện Lạnh | Uy Tín Giá Rẻ",
-  description: "Dịch vụ sửa chữa điện tử, điện lạnh uy tín, giá rẻ. Hỗ trợ tận nhà, bảo hành dài hạn. Gọi ngay!",
+  title: "Dịch Vụ Điện Nuóc, Điện Lạnh Thanh Hóa | Sửa Chữa, Bảo Trì Uy Tín - Giá Rẻ",
+  description: "Chuyên sửa chữa, bảo trì điện nước, điện lạnh tại Thanh Hóa. Dịch vụ uy tín, kỹ thuật viên chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
   keywords: "sửa chữa điện tử, sửa chữa điện lạnh, sửa tivi, sửa máy lạnh, sửa tủ lạnh",
 
   openGraph: {
-    title: "Sửa Chữa Điện Tử Điện Lạnh | Uy Tín Giá Rẻ",
-    description: "Dịch vụ sửa chữa điện tử, điện lạnh uy tín, giá rẻ. Hỗ trợ tận nhà, bảo hành dài hạn. Gọi ngay!",
+    title: "Dịch Vụ Điện Nuóc, Điện Lạnh Thanh Hóa | Sửa Chữa, Bảo Trì Uy Tín - Giá Rẻ",
+    description: "Chuyên sửa chữa, bảo trì điện nước, điện lạnh tại Thanh Hóa. Dịch vụ uy tín, kỹ thuật viên chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
     images: [
       {
         url: thumbnail.src,
         width: 1200,
         height: 630,
-        alt: "Sửa Chữa Điện Tử Điện Lạnh",
+        alt: "Dịch Vụ Điện Nuóc Điện Lạnh",
       },
     ],
   },
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Dịch Vụ Sửa Chữa Điện Tử Điện Lạnh",
+              "name": "Dịch Vụ Điện Nuóc, Điện Lạnh Thanh Hóa | Sửa Chữa, Bảo Trì Uy Tín - Giá Rẻ",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Thanh Hóa",
@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
               },
               "telephone": "+84342886598",
               "openingHours": "Mo-Su 08:00-22:00",
-              "description": "Dịch vụ sửa chữa điện tử điện lạnh chuyên nghiệp, hỗ trợ tận nhà, bảo hành dài hạn.",
+              "description": "Chuyên sửa chữa, bảo trì điện nước, điện lạnh tại Thanh Hóa. Dịch vụ uy tín, kỹ thuật viên chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
             })
           }}
         />
