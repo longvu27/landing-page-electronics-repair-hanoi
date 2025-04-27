@@ -12,7 +12,7 @@ export const metadata = {
   metadataBase: new URL(`https://suachuadienlanhthanhhoa.vercel.app/`),
   title: "Dịch Vụ Điện Nuóc, Điện Lạnh Thanh Hóa | Sửa Chữa, Bảo Trì Uy Tín - Giá Rẻ",
   description: "Chuyên sửa chữa, bảo trì điện nước, điện lạnh tại Thanh Hóa. Dịch vụ uy tín, kỹ thuật viên chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
-  keywords: "sửa chữa điện tử, sửa chữa điện lạnh, sửa tivi, sửa máy lạnh, sửa tủ lạnh",
+  keywords: "sửa chữa điện tử, sửa chữa điện lạnh, sửa tivi, sửa máy lạnh, sửa tủ lạnh, máy lọc nước",
 
   openGraph: {
     title: "Dịch Vụ Điện Nuóc, Điện Lạnh Thanh Hóa | Sửa Chữa, Bảo Trì Uy Tín - Giá Rẻ",
@@ -22,7 +22,7 @@ export const metadata = {
         url: thumbnail.src,
         width: 1200,
         height: 630,
-        alt: "Dịch Vụ Điện Nuóc Điện Lạnh",
+        alt: "Dịch Vụ Điện Nuóc Điện Lạnh Thanh Hoá",
       },
     ],
   },
