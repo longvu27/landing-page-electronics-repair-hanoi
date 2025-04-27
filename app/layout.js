@@ -22,7 +22,7 @@ export const metadata = {
         url: thumbnail.src,
         width: 1200,
         height: 630,
-        alt: "Dịch Vụ Điện Nuóc Điện Lạnh Thanh Hoá",
+        alt: "Dịch Vụ Điện Nước Điện Lạnh Thanh Hoá",
       },
     ],
   },
