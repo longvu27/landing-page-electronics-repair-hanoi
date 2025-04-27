@@ -6,13 +6,13 @@ export default function HomePage() {
 
   return (
     <div className={s.wrapper}>
-      <h1>Sửa Chữa Điện Nước Điện Lạnh Tại Thanh Hoá</h1>
+      <h1>Dịch vụ Sửa Chữa Điện Nước Điện Lạnh Tại Thanh Hoá</h1>
       <p>Dịch vụ sửa máy lạnh, tủ lạnh, máy lọc nước...</p>
 
       <Image src={imgRepair} alt="Sửa chữa điện tử điện lạnh tại Thanh Hoá" width={800} height={600} />
 
       <div >
-        <h2 >Dịch vụ của chúng tôi tại Thanh Hoá</h2>
+        <h2>Dịch vụ của chúng tôi tại Thanh Hoá</h2>
         <h3>Sửa Điều Hoà Tại Nhà Thanh Hoá</h3>
         <h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Thanh Hoá</h4>
         <h5>Sửa chữa Tủ lạnh, máy giặt tại Thanh Hoá</h5>
