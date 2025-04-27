@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import s from './homePageStyle.module.scss';
 import imgRepair from '@/assets/images/dien_lanh.jpg';
+import Link from 'next/link';
 
 export default function HomePage() {
 
@@ -19,6 +20,24 @@ export default function HomePage() {
         <h5>Sửa chữa Tủ lạnh, máy giặt tại Thanh Hoá</h5>
         <h6>Sửa chữa máy lọc nước tại Thanh Hoá</h6>
         <p>Tư vấn miễn phí, báo giá nhanh chóng </p>
+      </div>
+
+      <div>
+        <p>
+          Ngoài sửa điều hòa, chúng tôi còn cung cấp dịch vụ{' '}
+          <Link href="/dien-nuoc">
+            Sửa chữa điện nước Thanh Hóa
+          </Link>
+          {' '}với giá tốt nhất.
+        </p>
+
+        <p>
+          Nếu bạn đang cần{' '}
+          <Link href="/dien-lanh">
+            Sửa chữa điện lạnh tại Thanh Hóa
+          </Link>
+          , chúng tôi luôn sẵn sàng phục vụ nhanh chóng.
+        </p>
       </div>
 
       <div >
@@ -55,7 +74,7 @@ export default function HomePage() {
         <p>Bảo hành dài hạn: Mọi dịch vụ sửa chữa đều được bảo hành lên đến 12 tháng, giúp bạn yên tâm sử dụng.</p>
 
         <p>Cam kết của chúng tôi:
-        An toàn và chất lượng: Mọi công việc sửa chữa đều được thực hiện theo đúng quy trình kỹ thuật, đảm bảo an toàn cho thiết bị và người sử dụng.</p>
+          An toàn và chất lượng: Mọi công việc sửa chữa đều được thực hiện theo đúng quy trình kỹ thuật, đảm bảo an toàn cho thiết bị và người sử dụng.</p>
 
         <p>Tiết kiệm chi phí: Chúng tôi luôn đưa ra giải pháp sửa chữa tối ưu, giúp bạn tiết kiệm chi phí sửa chữa, thay vì phải thay mới các linh kiện.</p>
 
