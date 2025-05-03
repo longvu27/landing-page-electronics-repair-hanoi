@@ -10,7 +10,7 @@ export default function HomePage() {
       <h1>Dịch vụ Điện Nước Điện Lạnh Tại Thanh Hoá</h1>
       <p>Dịch vụ sửa máy lạnh, tủ lạnh, máy lọc nước...</p>
 
-      <Image src={imgRepair} alt="Sửa chữa điện tử điện lạnh tại Thanh Hoá" width={800} height={600} />
+      <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá" width={800} height={600} />
 
       <div >
         <h2>Dịch vụ của chúng tôi tại Thanh Hoá</h2>
@@ -48,7 +48,7 @@ export default function HomePage() {
       <div>
         <p>Dịch vụ Điện Nước Điện Lạnh Tại Thanh Hoá – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</p>
 
-        <p>Chúng tôi cung cấp dịch vụ sửa chữa điện tử điện lạnh chất lượng cao, với đội ngũ kỹ thuật viên có nhiều năm kinh nghiệm trong ngành. Các dịch vụ của chúng tôi bao gồm sửa chữa tủ lạnh, máy lạnh, máy giặt, tivi, lò vi sóng, máy điều hòa và các thiết bị điện lạnh khác. Dù bạn gặp vấn đề với thiết bị gia đình hay cần sửa chữa cho doanh nghiệp của mình, chúng tôi luôn sẵn sàng hỗ trợ nhanh chóng và hiệu quả.</p>
+        <p>Chúng tôi cung cấp dịch vụ sửa chữa điện nước điện lạnh chất lượng cao, với đội ngũ kỹ thuật viên có nhiều năm kinh nghiệm trong ngành. Các dịch vụ của chúng tôi bao gồm sửa chữa tủ lạnh, máy lạnh, máy giặt, tivi, lò vi sóng, máy điều hòa và các thiết bị điện lạnh khác. Dù bạn gặp vấn đề với thiết bị gia đình hay cần sửa chữa cho doanh nghiệp của mình, chúng tôi luôn sẵn sàng hỗ trợ nhanh chóng và hiệu quả.</p>
 
         <p>Chúng tôi cam kết mang lại cho bạn dịch vụ sửa chữa điện lạnh chất lượng nhất, với đội ngũ thợ sửa chữa lành nghề. Đặc biệt, chúng tôi cung cấp dịch vụ sửa chữa tại nhà, giúp bạn tiết kiệm thời gian và công sức. Dù bạn ở Quận 1, Quận 2, Quận 3, TP.HCM hay bất kỳ khu vực nào tại TP.HCM, chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa thiết bị điện lạnh của bạn.</p>
 
@@ -60,7 +60,7 @@ export default function HomePage() {
 
         <p>Sửa chữa máy giặt, từ lỗi không vắt, không xả nước, đến các lỗi về động cơ.</p>
 
-        <p> Sửa chữa thiết bị điện tử khác như tivi, lò vi sóng, quạt điện...</p>
+        <p> Sửa chữa thiết bị điện nước khác như tivi, lò vi sóng, quạt điện...</p>
 
         <p>Lý do chọn [Tên Công Ty]:
           Thợ kỹ thuật chuyên nghiệp: Chúng tôi có đội ngũ kỹ thuật viên giàu kinh nghiệm, luôn cập nhật kỹ thuật mới nhất trong ngành điện lạnh.</p>
@@ -80,7 +80,7 @@ export default function HomePage() {
 
         <p>Chất lượng dịch vụ vượt trội: Chúng tôi luôn nỗ lực để mang lại dịch vụ sửa chữa tốt nhất, đáp ứng mọi nhu cầu của khách hàng.</p>
 
-        <p>Nếu bạn đang gặp sự cố với các thiết bị điện tử điện lạnh tại nhà hoặc văn phòng, đừng ngần ngại liên hệ ngay với chúng tôi. Gọi ngay để được tư vấn và nhận dịch vụ sửa chữa nhanh chóng, uy tín.</p>
+        <p>Nếu bạn đang gặp sự cố với các thiết bị điện nước điện lạnh tại nhà hoặc văn phòng, đừng ngần ngại liên hệ ngay với chúng tôi. Gọi ngay để được tư vấn và nhận dịch vụ sửa chữa nhanh chóng, uy tín.</p>
 
         <p>Tại sao lựa chọn dịch vụ sửa chữa điện lạnh tại [Tên Công Ty]?</p>
         <p>Giải pháp tối ưu cho mọi sự cố điện lạnh: Với kiến thức chuyên sâu và kinh nghiệm lâu năm, chúng tôi tự tin cung cấp các giải pháp sửa chữa nhanh chóng và hiệu quả nhất cho mọi loại thiết bị điện lạnh.</p>

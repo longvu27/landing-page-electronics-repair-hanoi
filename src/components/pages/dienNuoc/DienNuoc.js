@@ -6,7 +6,7 @@ export default function DienNuoc() {
 
   return (
     <div className={s.wrapper}>
-      <Image src={imgRepair} alt="Sửa chữa điện tử điện lạnh tại Thanh Hoá" width={800} height={600} />
+      <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá" width={800} height={600} />
 
       <h1>Dịch Vụ Sửa Chữa Điện Nước Tại Thanh Hóa - Nhanh Chóng, Giá Rẻ</h1>
 
