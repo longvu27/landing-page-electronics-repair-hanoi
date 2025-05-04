@@ -29,8 +29,6 @@
 
   &:not(:last-child) {
     border-right: solid 1px #cccccc;
-    border-bottom: solid 1px #cccccc;
-    padding-bottom: 10px;
   }
 }
 
@@ -55,6 +53,8 @@
   
     &:not(:last-child) {
       border-right: unset;
+      border-bottom: solid 1px #cccccc;
+      padding-bottom: 10px;
     }
   }
 

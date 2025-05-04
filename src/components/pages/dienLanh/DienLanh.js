@@ -5,9 +5,11 @@ import imgRepair from '@/assets/images/dien_lanh.jpg';
 export default function DienLanh() {
   return (
     <div className={s.wrapper}>
-      <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá" width={800} height={600} />
+      <div className={s.imgBanner}>
+        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá" />
+      </div>
 
-      <h1>Dịch Vụ Sửa Chữa Điện Lạnh Tại Thanh Hóa - Uy Tín, Chuyên Nghiệp</h1>
+      <h1 className={s.titleH1}>Dịch Vụ Sửa Chữa Điện Lạnh Tại Thanh Hóa - Uy Tín, Chuyên Nghiệp</h1>
 
       <p>Bạn đang tìm kiếm dịch vụ sửa chữa điện lạnh uy tín tại Thanh Hóa? Chúng tôi chuyên sửa điều hòa, tủ lạnh, máy giặt, bình nóng lạnh với đội ngũ kỹ thuật viên tay nghề cao, phục vụ tận nơi nhanh chóng.</p>
 

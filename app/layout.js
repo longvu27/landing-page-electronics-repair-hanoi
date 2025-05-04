@@ -1,11 +1,11 @@
 import thumbnail from '@/public/thumbnail.jpg';
 import "../styles/globalsStyle.scss";
-import { Quicksand } from "next/font/google";
+import { Roboto } from "next/font/google";
 import Layout from '@/src/components/layout/Layout';
 
-const quicksand = Quicksand({
-  variable: "--font-quicksand",
-  subsets: ["latin"],
+ const roboto = Roboto({
+  subsets: ['latin'],
+  variable: '--font-roboto',
 });
 
 
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="google-site-verification" content="0DpO_pFQW6LPcpkBPQlslkCsWHv_QzzZYaV2A_D6Dro" />
       </head>
-      <body className={quicksand.variable}>
+      <body className={roboto.variable}>
         <Layout>
           {children}
         </Layout>
