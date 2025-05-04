@@ -1,6 +1,7 @@
 import thumbnail from '@/public/thumbnail.jpg';
 import "../styles/globalsStyle.scss";
 import { Quicksand } from "next/font/google";
+import Layout from '@/src/components/layout/Layout';
 
 const quicksand = Quicksand({
   variable: "--font-quicksand",
@@ -43,7 +44,9 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="0DpO_pFQW6LPcpkBPQlslkCsWHv_QzzZYaV2A_D6Dro" />
       </head>
       <body className={quicksand.variable}>
-        {children}
+        <Layout>
+          {children}
+        </Layout>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
