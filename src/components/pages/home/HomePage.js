@@ -2,9 +2,9 @@ import Image from 'next/image';
 import s from './homePageStyle.module.scss';
 import imgRepair from '@/assets/images/dien_lanh.jpg';
 import Link from 'next/link';
-import suaDieuHoa from '@/assets/images/home/sua_dieu_hoa.jpg';
-import suaMayGiat from '@/assets/images/home/sua_may_giat.jpg';
-import suaMayLocNuoc from '@/assets/images/home/sua_may_loc_nuoc.jpg';
+import suaDieuHoa from '@/assets/images/home/sua_dieu_hoa.png';
+import suaMayGiat from '@/assets/images/home/sua_may_giat.png';
+import suaMayLocNuoc from '@/assets/images/home/sua_may_loc_nuoc.png';
 
 export default function HomePage() {
 
