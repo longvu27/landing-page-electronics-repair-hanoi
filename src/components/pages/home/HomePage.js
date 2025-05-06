@@ -2,6 +2,9 @@ import Image from 'next/image';
 import s from './homePageStyle.module.scss';
 import imgRepair from '@/assets/images/dien_lanh.jpg';
 import Link from 'next/link';
+import suaDieuHoa from '@/assets/images/home/sua_dieu_hoa.jpg';
+import suaMayGiat from '@/assets/images/home/sua_may_giat.jpg';
+import suaMayLocNuoc from '@/assets/images/home/sua_may_loc_nuoc.jpg';
 
 export default function HomePage() {
 
@@ -12,7 +15,6 @@ export default function HomePage() {
           src={imgRepair}
           alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá"
           sizes="(max-width: 768px) 100vw, 1200px"
-          // priority
         />
       </div>
       <h1 className={s.titleH1}>Dịch vụ Điện Nước Điện Lạnh Tại Thanh Hoá</h1>
@@ -33,6 +35,18 @@ export default function HomePage() {
         <p>Chúng tôi cung cấp dịch vụ sửa chữa điện nước điện lạnh chất lượng cao, với đội ngũ kỹ thuật viên có nhiều năm kinh nghiệm trong ngành. Các dịch vụ của chúng tôi bao gồm sửa chữa tủ lạnh, máy lạnh, máy giặt, tivi, lò vi sóng, máy điều hòa và các thiết bị điện lạnh khác. Dù bạn gặp vấn đề với thiết bị gia đình hay cần sửa chữa cho doanh nghiệp của mình, chúng tôi luôn sẵn sàng hỗ trợ nhanh chóng và hiệu quả.</p>
 
         <p>Chúng tôi cam kết mang lại cho bạn dịch vụ sửa chữa điện lạnh chất lượng nhất, với đội ngũ thợ sửa chữa lành nghề. Đặc biệt, chúng tôi cung cấp dịch vụ sửa chữa tại nhà, giúp bạn tiết kiệm thời gian và công sức. Dù bạn ở bất kỳ khu vực nào tại Thanh Hoá, chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa thiết bị điện lạnh của bạn.</p>
+
+        <div className={s.listImg}>
+          <div className={s.img}>
+            <Image src={suaDieuHoa} alt='sửa chữa điều hoà' />
+          </div>
+          <div className={s.img}>
+            <Image src={suaMayGiat} alt='sửa chữa máy giặt' />
+          </div>
+          <div className={s.img}>
+            <Image src={suaMayLocNuoc} alt='sửa chữa máy lọc nước' />
+          </div>
+        </div>
 
         <p className={s.titleH3}>Dịch vụ sửa chữa điện lạnh của chúng tôi bao gồm:</p>
 
