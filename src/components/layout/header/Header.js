@@ -1,15 +1,19 @@
+'use client'
 import s from './headerStyle.module.scss';
 import logo from '@/assets/images/logo.png';
 import location from '@/assets/images/icons/location.svg';
 import phone from '@/assets/images/icons/phone.svg';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 export default function Header() {
+  const router = useRouter();
+
   return (
     <div className={s.header}>
       <div className={`width-container ${s.container}`}>
         <div className={s.left}>
-          <div className={s.logo}>
+          <div className={s.logo} onClick={() => router.push('/')}>
             <Image src={logo} alt='logo' />
           </div>
           <div className={s.text}>
