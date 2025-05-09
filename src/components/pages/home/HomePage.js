@@ -123,7 +123,7 @@ export default function HomePage() {
           </li>
         </ul>
 
-        <div className={s.titleH1} style={{margin: '20px auto'}}>Dịch vụ nổi bật của chúng tôi</div>
+        <div className={s.titleH1} style={{ margin: '20px auto' }}>Dịch vụ nổi bật của chúng tôi</div>
         <div className={s.listCard}>
           {dataCardBlog.map((item, index) => (
             <div className={s.cardItem} key={index}>
@@ -144,13 +144,11 @@ export default function HomePage() {
         <p>Dịch vụ sửa chữa tại nhà tiện lợi: Bạn không cần phải lo lắng về việc mang thiết bị đi sửa chữa. Chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa nhanh chóng.</p>
 
         <p>Giá cả phải chăng, bảo hành dài hạn: Với mức giá hợp lý, chúng tôi cam kết không phát sinh thêm chi phí, đồng thời bảo hành dài hạn cho mọi dịch vụ.</p>
-
-        <p>Liên hệ ngay với chúng tôi qua số điện thoại <span>0964 701 333</span> để được hỗ trợ tốt nhất.</p>
       </div>
 
       <div>
         <p>
-          Ngoài sửa điều hòa, chúng tôi còn cung cấp dịch vụ{' '}
+          Chúng tôi cung cấp dịch vụ{' '}
           <Link href="/dien-nuoc">
             Sửa chữa điện nước Thanh Hóa
           </Link>
@@ -165,12 +163,7 @@ export default function HomePage() {
           , chúng tôi luôn sẵn sàng phục vụ nhanh chóng.
         </p>
       </div>
-
-      <div >
-        <h2 >Liên hệ ngay</h2>
-        <p>Hotline: <span >0964 701 333</span></p>
-      </div>
-
+      <p>Liên hệ ngay với chúng tôi qua số điện thoại <span>0964 701 333</span> để được hỗ trợ tốt nhất.</p>
 
     </div>
   );
