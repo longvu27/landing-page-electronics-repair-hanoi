@@ -8,6 +8,39 @@ import suaMayLocNuoc from '@/assets/images/home/sua_may_loc_nuoc.png';
 
 export default function HomePage() {
 
+  const dataCardBlog = [
+    {
+      title: '',
+      img: '',
+      link: '',
+    },
+    {
+      title: '',
+      img: '',
+      link: '',
+    },
+    {
+      title: '',
+      img: '',
+      link: '',
+    },
+    {
+      title: '',
+      img: '',
+      link: '',
+    },
+    {
+      title: '',
+      img: '',
+      link: '',
+    },
+    {
+      title: '',
+      img: '',
+      link: '',
+    },
+  ]
+
   return (
     <div className={s.wrapper}>
       <div className={s.imgBanner}>
@@ -86,7 +119,7 @@ export default function HomePage() {
 
         <p>Nếu bạn đang gặp sự cố với các thiết bị điện nước điện lạnh tại nhà hoặc văn phòng, đừng ngần ngại liên hệ ngay với chúng tôi. Gọi ngay để được tư vấn và nhận dịch vụ sửa chữa nhanh chóng, uy tín.</p>
 
-        <p>Tại sao lựa chọn dịch vụ sửa chữa điện lạnh tại Doãn Anh?</p>
+        <p>Tại sao lựa chọn dịch vụ sửa chữa điện lạnh tại <span>Doãn Anh</span>?</p>
         <p>Giải pháp tối ưu cho mọi sự cố điện lạnh: Với kiến thức chuyên sâu và kinh nghiệm lâu năm, chúng tôi tự tin cung cấp các giải pháp sửa chữa nhanh chóng và hiệu quả nhất cho mọi loại thiết bị điện lạnh.</p>
 
         <p>Dịch vụ sửa chữa tại nhà tiện lợi: Bạn không cần phải lo lắng về việc mang thiết bị đi sửa chữa. Chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa nhanh chóng.</p>
