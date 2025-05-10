@@ -24,8 +24,9 @@
   }
 
   .title {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 700;
+    text-transform: uppercase;
   }
 
   .desc {
@@ -79,7 +80,7 @@
   .left {
     flex-direction: column;
     align-items: center;
-    gap: 0px;
+    gap: 6px;
 
     .text {
       align-items: center;
@@ -87,7 +88,7 @@
       gap: 8px;
 
       .title {
-        font-size: 25px;
+        font-size: 24px;
       }
 
       .desc {

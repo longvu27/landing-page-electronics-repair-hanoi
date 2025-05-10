@@ -17,7 +17,7 @@ export default function Header() {
             <Image src={logo} alt='logo' />
           </div>
           <div className={s.text}>
-            <div className={s.title}>Doãn Anh</div>
+            <div className={s.title}>Điện Lạnh - Điện Nước</div>
             <div className={s.desc}>Sửa Chữa Điện Nước - Điện Lạnh Chuyên Nghiệp</div>
           </div>
         </div>
