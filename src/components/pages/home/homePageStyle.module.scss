@@ -114,6 +114,13 @@
       height: auto;
       object-fit: cover;
     }
+
+    &_product {
+      img {
+        object-fit: contain;
+        max-height: 300px;
+      }
+    }
   }
 
   .title {

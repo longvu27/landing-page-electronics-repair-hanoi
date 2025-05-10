@@ -23,7 +23,7 @@ export default function Footer() {
         <div className={s.item}>
           <div className={s.title}>Liên Hệ</div>
           <p>Địa chỉ: Thôn 2, Thiệu Lý, Thiệu Hoá, Thanh Hoá</p>
-          <p>Điện thoại: 0964 701 333</p>
+          <p>Điện thoại: <a href="tel:0964701333">0964 701 333</a></p>
 
         </div>
       </div>

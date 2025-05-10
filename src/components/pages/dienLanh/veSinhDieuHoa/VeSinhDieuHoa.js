@@ -47,7 +47,7 @@ export default function VeSinhDieuHoa() {
         <li>Trang thiết bị và dụng cụ luôn được Điện nước - điện lạnh Doãn Anh đầu tư đầy đủ, hiện đại và tân tiến.</li>
         <li>Cam kết hoàn tiền 100% nếu khách hàng không hài lòng về dịch vụ của chúng tôi.</li>
       </ul>
-      <p>Nếu bạn đang có nhu cầu vệ sinh điều hòa Thanh Hóa, liên hệ ngay tới hotline <span>0964 701 333</span> để Điện nước - điện lạnh Doãn Anh có thể hỗ trợ bạn ngay.</p>
+      <p>Nếu bạn đang có nhu cầu vệ sinh điều hòa Thanh Hóa, liên hệ ngay tới hotline <span><a href="tel:0964701333">0964 701 333</a></span> để Điện nước - điện lạnh Doãn Anh có thể hỗ trợ bạn ngay.</p>
     </div>
   )
 }

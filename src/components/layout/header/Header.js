@@ -28,7 +28,7 @@ export default function Header() {
           </div>
           <div className={s.item}>
             <Image src={phone} alt='phone number' />
-            <p>0964 701 333</p>
+            <p><a href="tel:0964701333">0964 701 333</a></p>
           </div>
         </div>
       </div>

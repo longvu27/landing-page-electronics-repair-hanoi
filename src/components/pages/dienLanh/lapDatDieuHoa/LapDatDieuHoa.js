@@ -47,7 +47,7 @@ export default function LapDatDieuHoa() {
       <p>7. Kiểm tra lại, vệ sinh khu vực chúng tôi làm việc</p>
       <p>8. Bật máy kiểm tra và bàn giao cho khách hàng nghiệm thu</p>
       
-      <p>Quý khách có nhu cầu cung cấp dịch vụ xin vui lòng liên hệ hotline <span>0964 701 333</span> với chúng tôi cam kết 100% hài lòng sau dịch vụ của chúng tôi</p>
+      <p>Quý khách có nhu cầu cung cấp dịch vụ xin vui lòng liên hệ hotline <span><a href="tel:0964701333">0964 701 333</a></span> với chúng tôi cam kết 100% hài lòng sau dịch vụ của chúng tôi</p>
     </div>
   )
 }

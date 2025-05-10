@@ -37,7 +37,7 @@ export default function SuaChuaTuLanh() {
       <p>Tuy nhiên, đây là vấn đề khá phức tạp và rất khó để tự sửa nếu bạn không rành về chuyên môn. Vì thế, tốt hơn hết hãy gọi cho thợ chuyên nghiệp để được kiểm tra và giúp đỡ.</p>
       <p>Tủ lạnh không vào điện nếu không được xử lý kịp thời có thể gây ra nhiều hư hỏng nặng hơn. Chính vì thế ngay khi phát hiện tủ có những vấn đề lạ bạn cần nhanh chóng kiểm tra kịp thời và liên hệ với thợ sửa chữa chuyên nghiệp để được khắc phục.</p>
 
-      <p>Nếu bạn đang có nhu cầu sửa chữa tủ lạnh, liên hệ ngay tới hotline <span>0964 701 333</span> để Điện nước - điện lạnh Doãn Anh có thể hỗ trợ bạn ngay.</p>
+      <p>Nếu bạn đang có nhu cầu sửa chữa tủ lạnh, liên hệ ngay tới hotline <span><a href="tel:0964701333">0964 701 333</a></span> để Điện nước - điện lạnh Doãn Anh có thể hỗ trợ bạn ngay.</p>
     </div>
   )
 }
