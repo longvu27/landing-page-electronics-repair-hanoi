@@ -11,7 +11,7 @@ export default function Footer() {
           </div>
           <div className={s.text}>
             <div className={s.title}>Doãn Anh</div>
-            <p>Dịch vụ sửa chữa điện nước điện lạnh tại Thanh Hóa – Chuyên sửa chữa, lắp đặt điện dân dụng, bảo trì điều hòa, tủ lạnh và các thiết bị điện lạnh nhanh chóng, uy tín. Hỗ trợ 24/7, có mặt sau 30 phút, cam kết giá cả minh bạch.</p>
+            <p>Dịch vụ sửa chữa điện nước điện lạnh tại Hà Nội – Chuyên sửa chữa, lắp đặt điện dân dụng, bảo trì điều hòa, tủ lạnh và các thiết bị điện lạnh nhanh chóng, uy tín. Hỗ trợ 24/7, có mặt sau 30 phút, cam kết giá cả minh bạch.</p>
           </div>
 
         </div>

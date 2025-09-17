@@ -86,28 +86,28 @@ export default function HomePage() {
       <div className={s.imgBanner}>
         <Image
           src={imgRepair}
-          alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá"
+          alt="Sửa chữa điện nước điện lạnh tại Hà Nội"
           sizes="(max-width: 768px) 100vw, 1200px"
         />
       </div>
-      <h1 className={s.titleH1}>Dịch vụ Điện Nước Điện Lạnh Tại Thanh Hoá</h1>
+      <h1 className={s.titleH1}>Dịch vụ Điện Nước Điện Lạnh Tại Hà Nội</h1>
       <div className={s.service}>
-        <h2>Dịch vụ của chúng tôi tại Thanh Hoá</h2>
+        <h2>Dịch vụ của chúng tôi tại Hà Nội</h2>
         <ul>
           <li><h3>Dịch Vụ Điện Nước: sửa chữa máy bơm, máy lọc nước</h3></li>
-          <li><h3>Dịch Vụ Điện Lạnh: sửa Điều Hoà Tại Nhà Thanh Hoá</h3></li>
-          <li><h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Thanh Hoá</h4></li>
-          <li><h5>Sửa chữa Tủ lạnh, máy giặt tại Thanh Hoá</h5></li>
+          <li><h3>Dịch Vụ Điện Lạnh: sửa Điều Hoà Tại Nhà Hà Nội</h3></li>
+          <li><h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Hà Nội</h4></li>
+          <li><h5>Sửa chữa Tủ lạnh, máy giặt tại Hà Nội</h5></li>
           <li><h6>Tư vấn miễn phí, báo giá nhanh chóng </h6></li>
         </ul>
       </div>
 
       <div className={s.content}>
-        <p className={s.titleH2}>Dịch vụ Điện Nước Điện Lạnh Tại Thanh Hoá – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</p>
+        <p className={s.titleH2}>Dịch vụ Điện Nước Điện Lạnh Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</p>
 
         <p>Chúng tôi cung cấp dịch vụ sửa chữa điện nước điện lạnh chất lượng cao, với đội ngũ kỹ thuật viên có nhiều năm kinh nghiệm trong ngành. Các dịch vụ của chúng tôi bao gồm sửa chữa tủ lạnh, máy lạnh, máy giặt, tivi, lò vi sóng, máy điều hòa và các thiết bị điện lạnh khác. Dù bạn gặp vấn đề với thiết bị gia đình hay cần sửa chữa cho doanh nghiệp của mình, chúng tôi luôn sẵn sàng hỗ trợ nhanh chóng và hiệu quả.</p>
 
-        <p>Chúng tôi cam kết mang lại cho bạn dịch vụ sửa chữa điện lạnh chất lượng nhất, với đội ngũ thợ sửa chữa lành nghề. Đặc biệt, chúng tôi cung cấp dịch vụ sửa chữa tại nhà, giúp bạn tiết kiệm thời gian và công sức. Dù bạn ở bất kỳ khu vực nào tại Thanh Hoá, chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa thiết bị điện lạnh của bạn.</p>
+        <p>Chúng tôi cam kết mang lại cho bạn dịch vụ sửa chữa điện lạnh chất lượng nhất, với đội ngũ thợ sửa chữa lành nghề. Đặc biệt, chúng tôi cung cấp dịch vụ sửa chữa tại nhà, giúp bạn tiết kiệm thời gian và công sức. Dù bạn ở bất kỳ khu vực nào tại Hà Nội, chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa thiết bị điện lạnh của bạn.</p>
 
         <div className={s.listImg}>
           <div className={s.img}>
@@ -200,7 +200,7 @@ export default function HomePage() {
         <p>
           Chúng tôi cung cấp dịch vụ{' '}
           <Link href="/dien-nuoc">
-            Sửa chữa điện nước Thanh Hóa
+            Sửa chữa điện nước Hà Nội
           </Link>
           {' '}với giá tốt nhất.
         </p>
@@ -208,7 +208,7 @@ export default function HomePage() {
         <p>
           Nếu bạn đang cần{' '}
           <Link href="/dien-lanh">
-            Sửa chữa điện lạnh tại Thanh Hóa
+            Sửa chữa điện lạnh tại Hà Nội
           </Link>
           , chúng tôi luôn sẵn sàng phục vụ nhanh chóng.
         </p>

@@ -8,11 +8,11 @@ export default function SuaBinhNongLanh() {
   return (
     <div className={s.wrapper}>
       <div className={s.imgBanner}>
-        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá" />
+        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
       </div>
 
-      <h1 className={s.titleH1}>Dịch vụ sửa bình nóng lạnh tại Thanh Hóa giá rẻ</h1>
-      <p>Sửa chữa bình nóng lạnh tại Thanh Hóa nhanh chóng, hiệu quả với đội ngũ kỹ thuật viên chuyên nghiệp. Chúng tôi xử lý mọi sự cố của bình nóng lạnh, từ lỗi nhỏ đến những vấn đề phức tạp. Cam kết sửa chữa nhanh chóng, giá hợp lý và bảo hành lâu dài. Liên hệ ngay để được tư vấn chi tiết và giải quyết sự cố ngay lập tức.</p>
+      <h1 className={s.titleH1}>Dịch vụ sửa bình nóng lạnh tại Hà Nội giá rẻ</h1>
+      <p>Sửa chữa bình nóng lạnh tại Hà Nội nhanh chóng, hiệu quả với đội ngũ kỹ thuật viên chuyên nghiệp. Chúng tôi xử lý mọi sự cố của bình nóng lạnh, từ lỗi nhỏ đến những vấn đề phức tạp. Cam kết sửa chữa nhanh chóng, giá hợp lý và bảo hành lâu dài. Liên hệ ngay để được tư vấn chi tiết và giải quyết sự cố ngay lập tức.</p>
 
       <p className={s.titleH2}>Các lỗi bình nóng lạnh thường gặp</p>
       <p>Có nhiều lỗi thường gặp trên bình nóng lạnh, và chúng có thể gây ra sự cố từ nhỏ đến nghiêm trọng. Dưới đây là một số lỗi phổ biến mà bạn có thể gặp khi sử dụng bình nóng lạnh:</p>
@@ -30,18 +30,18 @@ export default function SuaBinhNongLanh() {
       <p>Lưu ý rằng việc tự sửa chữa các lỗi trên bình nóng lạnh có thể nguy hiểm và dễ dẫn đến hỏng hóc nghiêm trọng hoặc thương tổn. Nếu bạn gặp bất kỳ lỗi nào trên bình nóng lạnh, nên gọi một thợ sửa chữa chuyên nghiệp hoặc kỹ thuật viên dịch vụ để kiểm tra và sửa chữa.</p>
 
       <div className={s.imgRepair}>
-        <Image src={suaBinhNongLanh} alt="Sửa chữa bình nóng lạnh tại Thanh Hoá" />
+        <Image src={suaBinhNongLanh} alt="Sửa chữa bình nóng lạnh tại Hà Nội" />
       </div>
 
-      <h2 className={s.titleH2}>Quy trình sửa chữa bình nóng lạnh tại thanh hóa</h2>
-      <p>Quy trình sửa chữa bình nóng lạnh tại Thanh Hóa (hoặc bất kỳ địa điểm nào khác) có thể tùy thuộc vào đơn vị sửa chữa hoặc người thợ cụ thể. Tuy nhiên, dưới đây là một hướng dẫn tổng quan về quy trình sửa chữa bình nóng lạnh:</p>
+      <h2 className={s.titleH2}>Quy trình sửa chữa bình nóng lạnh tại Hà Nội</h2>
+      <p>Quy trình sửa chữa bình nóng lạnh tại Hà Nội (hoặc bất kỳ địa điểm nào khác) có thể tùy thuộc vào đơn vị sửa chữa hoặc người thợ cụ thể. Tuy nhiên, dưới đây là một hướng dẫn tổng quan về quy trình sửa chữa bình nóng lạnh:</p>
 
       <p><span>Bước 1:</span> Liên hệ với Đơn Vị Sửa Chữa Hoặc Thợ Có Kinh Nghiệm</p>
-      <p>Đầu tiên, bạn cần tìm một đơn vị sửa chữa bình nóng lạnh hoặc thợ điện nước có kinh nghiệm tại Thanh Hóa. Bạn có thể tìm kiếm thông qua các dịch vụ trực tuyến, đề xuất từ người quen, hoặc thông qua danh bạ điện thoại địa phương.</p>
+      <p>Đầu tiên, bạn cần tìm một đơn vị sửa chữa bình nóng lạnh hoặc thợ điện nước có kinh nghiệm tại Hà Nội. Bạn có thể tìm kiếm thông qua các dịch vụ trực tuyến, đề xuất từ người quen, hoặc thông qua danh bạ điện thoại địa phương.</p>
       <p><span>Bước 2:</span> Đặt lịch hẹn và Kiểm Tra Sự Cố</p>
       <p>Liên hệ với đơn vị sửa chữa hoặc thợ để đặt lịch hẹn và mô tả sự cố mà bạn đang gặp phải với bình nóng lạnh. Họ có thể yêu cầu bạn cung cấp thông tin chi tiết về loại bình nóng lạnh, thương hiệu, và triệu chứng của sự cố.</p>
       <p><span>Bước 3:</span> Kiểm Tra và Chuẩn Đoán</p>
-      <p>Thợ sửa chữa sẽ đến địa điểm của bạn tại Thanh Hóa để kiểm tra bình nóng lạnh. Họ sẽ kiểm tra các thành phần như bộ điều khiển, ống dẫn, van nước, và bộ sưởi nóng. Dựa vào kết quả kiểm tra, họ sẽ đưa ra chuẩn đoán về sự cố và cách sửa chữa.</p>
+      <p>Thợ sửa chữa sẽ đến địa điểm của bạn tại Hà Nội để kiểm tra bình nóng lạnh. Họ sẽ kiểm tra các thành phần như bộ điều khiển, ống dẫn, van nước, và bộ sưởi nóng. Dựa vào kết quả kiểm tra, họ sẽ đưa ra chuẩn đoán về sự cố và cách sửa chữa.</p>
       <p><span>Bước 4:</span> Thông Báo Về Sự Cố và Sửa Chữa</p>
       <p>Sau khi xác định sự cố, thợ sửa chữa sẽ thông báo cho bạn về tình trạng của bình nóng lạnh và cách sửa chữa nó. Họ sẽ cung cấp cho bạn một ước tính về chi phí sửa chữa.</p>
       <p><span>Bước 5:</span> Sửa Chữa</p>
@@ -54,7 +54,7 @@ export default function SuaBinhNongLanh() {
       <p>Nếu bạn muốn bảo dưỡng bình nóng lạnh để tránh sự cố trong tương lai, bạn có thể thảo luận với thợ sửa chữa về việc lên kế hoạch bảo dưỡng định kỳ.</p>
       <p>Nhớ rằng quy trình này có thể thay đổi tùy theo tình trạng cụ thể của bình nóng lạnh và từng đơn vị sửa chữa. Để đảm bảo rằng công việc được thực hiện chính xác và hiệu quả, luôn luôn chọn các đơn vị sửa chữa uy tín và có kinh nghiệm.</p>
 
-      <p>Liên hệ ngay với <span>Doãn Anh</span> qua hotline <span><a href="tel:0964701333">0964 701 333</a></span> để đặt lịch hẹn sửa chữa máy lọc nước tại Thanh Hóa ngay hôm nay. Rất hân hạnh được phục vụ quý khách.</p>
+      <p>Liên hệ ngay với <span>Doãn Anh</span> qua hotline <span><a href="tel:0964701333">0964 701 333</a></span> để đặt lịch hẹn sửa chữa máy lọc nước tại Hà Nội ngay hôm nay. Rất hân hạnh được phục vụ quý khách.</p>
     </div>
   )
 }
