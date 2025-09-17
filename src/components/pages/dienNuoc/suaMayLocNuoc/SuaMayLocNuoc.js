@@ -6,9 +6,9 @@ import suaMayLocNuoc from '@/assets/images/dienNuoc/sua_may_loc_nuoc.jpg';
 export default function SuaMayLocNuoc() {
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
+      {/* <div className={s.imgBanner}>
         <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div>
+      </div> */}
 
       <h1 className={s.titleH1}>Sửa chữa máy lọc nước giá rẻ, uy tín tại Hà Nội</h1>
 
@@ -40,7 +40,7 @@ export default function SuaMayLocNuoc() {
       <p>Khi lựa chọn Điện Lạnh Doãn Anh, bạn sẽ được tận hưởng nhiều lợi ích như:</p>
       <ul>
         <li><span>Nhanh chóng, chuyên nghiệp:</span> Chúng tôi cam kết đến tận nơi để sửa chữa nhanh chóng, giúp bạn tiết kiệm thời gian.</li>
-        <li><sapn>Giá cả cạnh tranh:</sapn> Giá cả minh bạch, bạn sẽ không phải lo lắng về chi phí ẩn.</li>
+        <li><span>Giá cả cạnh tranh:</span> Giá cả minh bạch, bạn sẽ không phải lo lắng về chi phí ẩn.</li>
         <li><span>Bảo hành dài hạn:</span> Sau khi sửa chữa, bạn sẽ được bảo hành lâu dài cho các linh kiện thay thế và dịch vụ sửa chữa.</li>
         <li><span>Dịch vụ tận nơi:</span> Bạn không cần phải mang máy lọc nước đi đâu, chúng tôi sẽ đến tận nhà để sửa chữa.</li>
       </ul>

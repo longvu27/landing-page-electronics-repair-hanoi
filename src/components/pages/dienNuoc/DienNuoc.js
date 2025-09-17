@@ -6,9 +6,9 @@ export default function DienNuoc() {
 
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
+      {/* <div className={s.imgBanner}>
         <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div>
+      </div> */}
 
       <h1 className={s.titleH1}>Dịch Vụ Sửa Chữa Điện Nước Tại Hà Nội - Nhanh Chóng, Giá Rẻ</h1>
 

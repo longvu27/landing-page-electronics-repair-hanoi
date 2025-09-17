@@ -6,9 +6,9 @@ import Image from 'next/image';
 export default function LapDatDieuHoa() {
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
+      {/* <div className={s.imgBanner}>
         <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div>
+      </div> */}
       <h1 className={s.titleH1}>Lắp đặt điều hòa tại Hà Nội</h1>
       <p>Khi bạn muốn chuyển, lắp đặt điều hòa tại Hà Nội mà bạn chưa biết đơn vị nào ở Hà Nội cung cấp dịch vụ, vui lòng nhấc máy gọi cho chúng tôi. Mọi vấn đề về  dịch vụ lắp đặt điều hòa tại Hà Nội của quý khách sẽ được giải quyết một cách nhanh chóng.</p>
       <p>Chúng tôi cung cấp dịch vụ rộng khắp trong khu vực tỉnh Hà Nội để phục vụ quý khách một cách tốt nhất, để giúp quý khách trải nghiệm dịch vụ của thợ sửa Hà Nội một cách hoàn hảo nhất</p>

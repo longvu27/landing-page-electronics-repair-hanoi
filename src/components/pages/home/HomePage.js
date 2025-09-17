@@ -18,6 +18,7 @@ import img_may_giat from '@/assets/images/home/may_giat.webp';
 import img_may_loc_nuoc from '@/assets/images/home/may_loc_nuoc.webp';
 import img_may_phat_dien from '@/assets/images/home/may_phat_dien.jpg';
 import img_tu_lanh from '@/assets/images/home/tu_lanh.webp';
+import about_us from '@/assets/images/home/about_us.png';
 
 export default function HomePage() {
 
@@ -83,90 +84,43 @@ export default function HomePage() {
 
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
+      {/* <div className={s.imgBanner}>
         <Image
           src={imgRepair}
           alt="Sửa chữa điện nước điện lạnh tại Hà Nội"
           sizes="(max-width: 768px) 100vw, 1200px"
         />
-      </div>
-      <h1 className={s.titleH1}>Dịch vụ Điện Nước Điện Lạnh Tại Hà Nội</h1>
-      <div className={s.service}>
-        <h2>Dịch vụ của chúng tôi tại Hà Nội</h2>
-        <ul>
-          <li><h3>Dịch Vụ Điện Nước: sửa chữa máy bơm, máy lọc nước</h3></li>
-          <li><h3>Dịch Vụ Điện Lạnh: sửa Điều Hoà Tại Nhà Hà Nội</h3></li>
-          <li><h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Hà Nội</h4></li>
-          <li><h5>Sửa chữa Tủ lạnh, máy giặt tại Hà Nội</h5></li>
-          <li><h6>Tư vấn miễn phí, báo giá nhanh chóng </h6></li>
-        </ul>
+      </div> */}
+      <div className={s.aboutMe}>
+        <div className={s.head}>
+          Về chúng tôi
+          <span>&nbsp;</span>
+        </div>
+        <div className={s.body}>
+          <div className={s.text}>
+            Sửa chữa điện nước giá tốt là một trong những đơn vị hàng đầu tại khu vực Hà Nội trong lĩnh vực: Sửa chữa điện nước, sửa chữa bình nóng lạnh, sửa chữa máy bơm, vòi sen nước, sửa chữa đường ống nước, thông tắc cống… Chúng tôi hoạt động 24/7 tại các khu vực nội thành khu vực Hà Nội. Bạn đang bị sự cố về điện và nước trong gia đình, hãy gọi cho chúng tôi để được giải quyết một cách nhanh chóng và hiệu quả nhất !
+            <br />
+            <div>
+              Chúng tôi luôn xem mỗi khách hàng là một ân nhân, phục vụ tận tâm, nhanh chóng và chất lượng.
+            </div>
+          </div>
+          <div className={s.img}>
+            <Image src={about_us} alt='about_us' />
+          </div>
+        </div>
       </div>
 
       <div className={s.content}>
-        <p className={s.titleH2}>Dịch vụ Điện Nước Điện Lạnh Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</p>
-
-        <p>Chúng tôi cung cấp dịch vụ sửa chữa điện nước điện lạnh chất lượng cao, với đội ngũ kỹ thuật viên có nhiều năm kinh nghiệm trong ngành. Các dịch vụ của chúng tôi bao gồm sửa chữa tủ lạnh, máy lạnh, máy giặt, tivi, lò vi sóng, máy điều hòa và các thiết bị điện lạnh khác. Dù bạn gặp vấn đề với thiết bị gia đình hay cần sửa chữa cho doanh nghiệp của mình, chúng tôi luôn sẵn sàng hỗ trợ nhanh chóng và hiệu quả.</p>
-
-        <p>Chúng tôi cam kết mang lại cho bạn dịch vụ sửa chữa điện lạnh chất lượng nhất, với đội ngũ thợ sửa chữa lành nghề. Đặc biệt, chúng tôi cung cấp dịch vụ sửa chữa tại nhà, giúp bạn tiết kiệm thời gian và công sức. Dù bạn ở bất kỳ khu vực nào tại Hà Nội, chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa thiết bị điện lạnh của bạn.</p>
-
-        <div className={s.listImg}>
-          <div className={s.img}>
-            <Image src={suaDieuHoa} alt='sửa chữa điều hoà' />
-          </div>
-          <div className={s.img}>
-            <Image src={suaMayGiat} alt='sửa chữa máy giặt' />
-          </div>
-          <div className={s.img}>
-            <Image src={suaMayLocNuoc} alt='sửa chữa máy lọc nước' />
-          </div>
-        </div>
-
-        <p className={s.titleH3}>Dịch vụ sửa chữa điện lạnh của chúng tôi bao gồm:</p>
-
-        <ul>
-          <li>
-            <p><span>Sửa chữa tủ lạnh:</span> từ việc không làm lạnh cho đến các lỗi nặng như tủ lạnh không xả tuyết, hỏng block.</p>
-          </li>
-          <li>
-            <p><span>Sửa chữa máy lạnh:</span> bao gồm các vấn đề như máy lạnh không mát, máy lạnh bị chảy nước, và các sự cố khác.</p>
-          </li>
-          <li>
-            <p><span>Sửa chữa máy giặt:</span> từ lỗi không vắt, không xả nước, đến các lỗi về động cơ.</p>
-          </li>
-          <li><p><span>Sửa chữa thiết bị điện nước khác như:</span> tivi, lò vi sóng, quạt điện...</p></li>
-          <li>
-            <p><span>Sửa chữa tận nhà:</span> Tiết kiệm thời gian, không phải mang thiết bị đi xa.</p>
-          </li>
-          <li>
-            <p><span>Phục vụ nhanh chóng:</span> Chúng tôi cam kết có mặt tại nhà bạn chỉ trong vòng 30 phút sau khi nhận được yêu cầu.</p>
-          </li>
-          <li>
-            <p><span>Giá cả hợp lý:</span> Chúng tôi cung cấp dịch vụ sửa chữa chất lượng với giá cả cạnh tranh, không phát sinh chi phí bất ngờ.</p>
-          </li>
-          <li><p><span>Bảo hành dài hạn:</span> Mọi dịch vụ sửa chữa đều được bảo hành lên đến 12 tháng, giúp bạn yên tâm sử dụng.</p></li>
-          <li>
-            <p><span>Cam kết của chúng tôi: </span>
-              <br />
-              An toàn và chất lượng: Mọi công việc sửa chữa đều được thực hiện theo đúng quy trình kỹ thuật, đảm bảo an toàn cho thiết bị và người sử dụng.</p>
-          </li>
-          <li>
-            <p><span>Tiết kiệm chi phí:</span> Chúng tôi luôn đưa ra giải pháp sửa chữa tối ưu, giúp bạn tiết kiệm chi phí sửa chữa, thay vì phải thay mới các linh kiện.</p>
-          </li>
-          <li>
-            <p><span>Chất lượng dịch vụ vượt trội:</span> Chúng tôi luôn nỗ lực để mang lại dịch vụ sửa chữa tốt nhất, đáp ứng mọi nhu cầu của khách hàng.</p>
-          </li>
-        </ul>
-
         <div className={s.titleH1} style={{ margin: '20px auto' }}>Dịch vụ nổi bật của chúng tôi</div>
         <div className={s.listCard}>
           {dataCardBlog.map((item, index) => (
-            <div className={s.cardItem} key={index}>
+            <Link href={item.link} className={s.cardItem} key={index}>
               <div className={s.image}>
                 <Image src={item.img} alt='card-item' />
               </div>
               <div className={s.title}>{item.title}</div>
-              <Link href={item.link} className={s.btn}>Chi tiết</Link>
-            </div>
+              <div className={s.btn}>Chi tiết</div>
+            </Link>
           ))}
         </div>
 
@@ -182,17 +136,85 @@ export default function HomePage() {
         <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333">0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
       </div>
 
+      <p className={s.titleH2}>Dịch vụ Điện Nước Điện Lạnh Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</p>
+
+      <p>Chúng tôi cung cấp dịch vụ sửa chữa điện nước điện lạnh chất lượng cao, với đội ngũ kỹ thuật viên có nhiều năm kinh nghiệm trong ngành. Các dịch vụ của chúng tôi bao gồm sửa chữa tủ lạnh, máy lạnh, máy giặt, tivi, lò vi sóng, máy điều hòa và các thiết bị điện lạnh khác. Dù bạn gặp vấn đề với thiết bị gia đình hay cần sửa chữa cho doanh nghiệp của mình, chúng tôi luôn sẵn sàng hỗ trợ nhanh chóng và hiệu quả.</p>
+
+      <p>Chúng tôi cam kết mang lại cho bạn dịch vụ sửa chữa điện lạnh chất lượng nhất, với đội ngũ thợ sửa chữa lành nghề. Đặc biệt, chúng tôi cung cấp dịch vụ sửa chữa tại nhà, giúp bạn tiết kiệm thời gian và công sức. Dù bạn ở bất kỳ khu vực nào tại Hà Nội, chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa thiết bị điện lạnh của bạn.</p>
+
+      <div className={s.listImg}>
+        <div className={s.img}>
+          <Image src={suaDieuHoa} alt='sửa chữa điều hoà' />
+        </div>
+        <div className={s.img}>
+          <Image src={suaMayGiat} alt='sửa chữa máy giặt' />
+        </div>
+        <div className={s.img}>
+          <Image src={suaMayLocNuoc} alt='sửa chữa máy lọc nước' />
+        </div>
+      </div>
+
+      <p className={s.titleH3}>Dịch vụ sửa chữa điện lạnh của chúng tôi bao gồm:</p>
+
+      <ul>
+        <li>
+          <p><span>Sửa chữa tủ lạnh:</span> từ việc không làm lạnh cho đến các lỗi nặng như tủ lạnh không xả tuyết, hỏng block.</p>
+        </li>
+        <li>
+          <p><span>Sửa chữa máy lạnh:</span> bao gồm các vấn đề như máy lạnh không mát, máy lạnh bị chảy nước, và các sự cố khác.</p>
+        </li>
+        <li>
+          <p><span>Sửa chữa máy giặt:</span> từ lỗi không vắt, không xả nước, đến các lỗi về động cơ.</p>
+        </li>
+        <li><p><span>Sửa chữa thiết bị điện nước khác như:</span> tivi, lò vi sóng, quạt điện...</p></li>
+        <li>
+          <p><span>Sửa chữa tận nhà:</span> Tiết kiệm thời gian, không phải mang thiết bị đi xa.</p>
+        </li>
+        <li>
+          <p><span>Phục vụ nhanh chóng:</span> Chúng tôi cam kết có mặt tại nhà bạn chỉ trong vòng 30 phút sau khi nhận được yêu cầu.</p>
+        </li>
+        <li>
+          <p><span>Giá cả hợp lý:</span> Chúng tôi cung cấp dịch vụ sửa chữa chất lượng với giá cả cạnh tranh, không phát sinh chi phí bất ngờ.</p>
+        </li>
+        <li><p><span>Bảo hành dài hạn:</span> Mọi dịch vụ sửa chữa đều được bảo hành lên đến 12 tháng, giúp bạn yên tâm sử dụng.</p></li>
+        <li>
+          <p><span>Cam kết của chúng tôi: </span>
+            <br />
+            An toàn và chất lượng: Mọi công việc sửa chữa đều được thực hiện theo đúng quy trình kỹ thuật, đảm bảo an toàn cho thiết bị và người sử dụng.</p>
+        </li>
+        <li>
+          <p><span>Tiết kiệm chi phí:</span> Chúng tôi luôn đưa ra giải pháp sửa chữa tối ưu, giúp bạn tiết kiệm chi phí sửa chữa, thay vì phải thay mới các linh kiện.</p>
+        </li>
+        <li>
+          <p><span>Chất lượng dịch vụ vượt trội:</span> Chúng tôi luôn nỗ lực để mang lại dịch vụ sửa chữa tốt nhất, đáp ứng mọi nhu cầu của khách hàng.</p>
+        </li>
+      </ul>
+
+      <div className={s.hidden}>
+        <h1 className={s.titleH1}>Dịch vụ Điện Nước Điện Lạnh Tại Hà Nội</h1>
+        <div className={s.service}>
+          <h2>Dịch vụ của chúng tôi tại Hà Nội</h2>
+          <ul>
+            <li><h3>Dịch Vụ Điện Nước: sửa chữa máy bơm, máy lọc nước</h3></li>
+            <li><h3>Dịch Vụ Điện Lạnh: sửa Điều Hoà Tại Nhà Hà Nội</h3></li>
+            <li><h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Hà Nội</h4></li>
+            <li><h5>Sửa chữa Tủ lạnh, máy giặt tại Hà Nội</h5></li>
+            <li><h6>Tư vấn miễn phí, báo giá nhanh chóng </h6></li>
+          </ul>
+        </div>
+      </div>
+
       <div className={s.titleH1} style={{ margin: '20px auto' }}>Các sản phẩm của chúng tôi</div>
       <p>Chúng tôi luôn có sẵn nhiều mẫu mã đa dạng, hàng mới, hàng thanh lý giá rẻ – cập nhật thường xuyên. Hãy liên hệ trực tiếp để được tư vấn mẫu mã và giá cụ thể phù hợp với nhu cầu của bạn.</p>
       <div className={s.listCard}>
         {dataProduct.map((item, index) => (
-          <div className={s.cardItem} key={index}>
+          <Link href="tel:0964701333" target="_blank" className={s.cardItem} key={index}>
             <div className={`${s.image} ${s.image_product}`}>
               <Image src={item.img} alt='card-item' />
             </div>
             <div className={s.title}>{item.title}</div>
-            <Link href="tel:0964701333" target="_blank" className={s.btn}>Liên hệ ngay</Link>
-          </div>
+            <div className={s.btn}>Liên hệ ngay</div>
+          </Link>
         ))}
       </div>
 
@@ -214,7 +236,6 @@ export default function HomePage() {
         </p>
       </div>
       <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333">0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
-
     </div>
   );
 }

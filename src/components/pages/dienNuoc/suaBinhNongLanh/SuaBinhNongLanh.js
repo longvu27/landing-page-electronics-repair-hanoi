@@ -7,9 +7,9 @@ export default function SuaBinhNongLanh() {
 
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
+      {/* <div className={s.imgBanner}>
         <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div>
+      </div> */}
 
       <h1 className={s.titleH1}>Dịch vụ sửa bình nóng lạnh tại Hà Nội giá rẻ</h1>
       <p>Sửa chữa bình nóng lạnh tại Hà Nội nhanh chóng, hiệu quả với đội ngũ kỹ thuật viên chuyên nghiệp. Chúng tôi xử lý mọi sự cố của bình nóng lạnh, từ lỗi nhỏ đến những vấn đề phức tạp. Cam kết sửa chữa nhanh chóng, giá hợp lý và bảo hành lâu dài. Liên hệ ngay để được tư vấn chi tiết và giải quyết sự cố ngay lập tức.</p>
@@ -20,7 +20,7 @@ export default function SuaBinhNongLanh() {
       <ul>
         <li><span>1. Không có nước nóng:</span> Điều này có thể do nhiều nguyên nhân, bao gồm hỏng của bộ phận sưởi nóng hoặc van cách nhiệt không hoạt động đúng cách. Có thể cần gọi thợ sửa chữa để kiểm tra và sửa lỗi.</li>
         <li><span>2. Áp lực nước yếu hoặc không ổn định:</span> Sự cố này thường liên quan đến van nước hoặc cảm biến áp lực. Áp lực nước không đủ có thể do đường ống nước bị tắc nghẽn hoặc van không hoạt động đúng cách.</li>
-        <li><psan>3. Nước nóng bị đục hoặc màu lạ:</psan> Điều này có thể do sự tích tụ của các khoáng chất trong bình nóng lạnh. Thường thì việc thay đổi cặn bã nhôm hoặc làm sạch bình nóng lạnh có thể giúp giải quyết vấn đề này.</li>
+        <li><span>3. Nước nóng bị đục hoặc màu lạ:</span> Điều này có thể do sự tích tụ của các khoáng chất trong bình nóng lạnh. Thường thì việc thay đổi cặn bã nhôm hoặc làm sạch bình nóng lạnh có thể giúp giải quyết vấn đề này.</li>
         <li><span>4. Bình nóng lạnh rò rỉ:</span> Rò rỉ có thể xảy ra ở nhiều nơi khác nhau, bao gồm đáy bình, van nước, hoặc ống dẫn. Việc này có thể cần một cuộc kiểm tra toàn diện và sửa chữa.</li>
         <li><span>5. Tiếng ồn lớn khi hoạt động:</span> Có thể do sự tích tụ của cặn bã nhôm hoặc sự co giãn và thu hẹp của ống dẫn khi nước nóng chảy qua. Làm sạch bình và ống dẫn hoặc cách nhiệt chúng có thể giúp giảm tiếng ồn.</li>
         <li><span>6. Thiết bị điều khiển không hoạt động:</span> Các thiết bị điều khiển như bộ điều khiển nhiệt độ hoặc bộ điều khiển thời gian có thể gặp sự cố, dẫn đến bất kỳ vấn đề nào về nhiệt độ hoặc chế độ hoạt động.</li>

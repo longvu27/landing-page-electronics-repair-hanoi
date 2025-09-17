@@ -1,7 +1,14 @@
 .header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  box-sizing: border-box;
   color: #ffffff;
   background-color: rgb(71, 134, 227);
   padding: 12px;
+  margin-bottom: 20px;
 
   .container {
     display: flex;
@@ -51,9 +58,13 @@
     align-items: center;
     gap: 5px;
 
-    a{
-    color: #ffffff;
+    a {
+      color: #ffffff;
+    }
 
+    span {
+      font-weight: bold;
+      text-decoration: underline;
     }
   }
 }

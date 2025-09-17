@@ -6,9 +6,9 @@ import imgSuaChuaTuLanh from '@/assets/images/dienLanh/sua_chua_tu_lanh.jpg';
 export default function SuaChuaTuLanh() {
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
+      {/* <div className={s.imgBanner}>
         <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div>
+      </div> */}
       <h1 className={s.titleH1}>Sửa tủ lạnh không vào điện tại Hà Nội</h1>
       <p>Tủ lạnh của gia đình bạn sẽ không thể vận hành và làm lạnh được nếu tủ không được cấp nguồn điện hoặc không có điện. Đây là lỗi khá phổ biến trong quá trình sử dụng thiết bị. Nếu chẳng may gặp phải tình huống này, trước hết bạn cần kiểm tra và tìm ra nguyên nhân chính xác rồi chọn phương án sửa chữa thích hợp nhất để tủ lại được hoạt động bình thường.</p>
       <p>Tủ lạnh không vào điện có thể nhận biết qua một số dấu hiệu như tủ lạnh ko sáng đèn, không có hơi lạnh, tủ lạnh không chạy. Trường hợp tủ lạnh không vào điện thường do 4 nguyên nhân cơ bản đó là: nguồn dây điện bị hở, phích cắm lỏng, nguồn điện không ổn định hoặc linh kiện bên trong tủ bị hư hỏng.</p>

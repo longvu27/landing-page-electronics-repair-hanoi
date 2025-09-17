@@ -5,9 +5,9 @@ import imgRepair from '@/assets/images/dien_lanh.jpg';
 export default function DienLanh() {
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
+      {/* <div className={s.imgBanner}>
         <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div>
+      </div> */}
 
       <h1 className={s.titleH1}>Dịch Vụ Sửa Chữa Điện Lạnh Tại Hà Nội - Uy Tín, Chuyên Nghiệp</h1>
 

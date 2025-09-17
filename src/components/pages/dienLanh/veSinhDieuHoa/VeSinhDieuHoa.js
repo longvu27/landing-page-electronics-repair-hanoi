@@ -6,9 +6,9 @@ import imgVeSinhDieuHoa from '@/assets/images/dienLanh/ve_sinh_dieu_hoa.jpg';
 export default function VeSinhDieuHoa() {
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
+      {/* <div className={s.imgBanner}>
         <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div>
+      </div> */}
       <h1 className={s.titleH1}>Vệ sinh điều hòa tại Hà Nội</h1>
       <p>Điều hòa là một sản phẩm sử dụng theo mùa nên cần được bảo dưỡng, vệ sinh định kỳ để đảm bảo hiệu quả hoạt động cũng như tuổi thọ sản phẩm. Dịch vụ vệ sinh điều hòa Doãn là lựa chọn hàng đầu khi khách hàng tại Doãn Anh có nhu cầu vệ sinh, bảo dưỡng điều hòa.</p>
 
