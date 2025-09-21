@@ -6,12 +6,12 @@ import imgVeSinhMayGiat from '@/assets/images/dienNuoc/ve_sinh_may_giat.jpeg';
 export default function VeSinhMayGiat() {
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
-        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá" />
-      </div>
-      <h1 className={s.titleH1}>Vệ sinh máy giặt tại Thanh Hóa</h1>
+      {/* <div className={s.imgBanner}>
+        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
+      </div> */}
+      <h1 className={s.titleH1}>Vệ sinh máy giặt tại Hà Nội</h1>
 
-      <p>Vệ sinh máy giặt giúp loại bỏ cặn bẩn và chất cặn tích tụ giảm tình trạng hao mòn và hư hỏng của các bộ phận trong máy. Theo dõi bài viết dưới để tìm hiểu về đơn vị cung cấp dịch vụ vệ sinh máy giặt Thanh Hóa uy tín.</p>
+      <p>Vệ sinh máy giặt giúp loại bỏ cặn bẩn và chất cặn tích tụ giảm tình trạng hao mòn và hư hỏng của các bộ phận trong máy. Theo dõi bài viết dưới để tìm hiểu về đơn vị cung cấp dịch vụ vệ sinh máy giặt Hà Nội uy tín.</p>
 
       <h2 className={s.titleH3}>Tầm quan trọng của vệ sinh máy giặt định kỳ</h2>
       <p>Vệ sinh máy giặt định kỳ có tầm quan trọng rất lớn đối với sức khỏe của gia đình bạn. Cụ thể: </p>
@@ -24,7 +24,7 @@ export default function VeSinhMayGiat() {
       <p>Việc vệ sinh máy giặt định kỳ có tầm quan trọng lớn đối với sức khỏe, hiệu suất, tuổi thọ và an toàn. Điều này đảm bảo rằng máy giặt hoạt động tốt nhất có thể và giữ cho quần áo và gia đình của bạn luôn sạch sẽ và an toàn.</p>
 
       <div className={s.imgRepair}>
-        <Image src={imgVeSinhMayGiat} alt="Sửa chữa máy giặt tại Thanh Hoá" />
+        <Image src={imgVeSinhMayGiat} alt="Sửa chữa máy giặt tại Hà Nội" />
       </div>
 
       <div className={s.stepContainer}>
@@ -57,15 +57,15 @@ export default function VeSinhMayGiat() {
       </div>
 
       <p className={s.titleH2}>Tại sao nên lựa chọn dịch vụ vệ sinh máy giặt tại <span>Doãn Anh</span>?</p>
-      <p>Dịch vụ vệ sinh máy giặt là một dịch vụ giúp bạn vệ sinh và bảo dưỡng các thiết bị gia đình, mang lại sự tiện lợi và tăng tuổi thọ của thiết bị. Điện lạnh Doãn Anh  tự hào là đơn vị cung cấp dịch vụ bảo dưỡng, vệ sinh máy giặt uy tín tại Thanh Hóa giá rẻ. Đến với chúng tôi, khách hàng nhận về các lợi ích:</p>
+      <p>Dịch vụ vệ sinh máy giặt là một dịch vụ giúp bạn vệ sinh và bảo dưỡng các thiết bị gia đình, mang lại sự tiện lợi và tăng tuổi thọ của thiết bị. Điện lạnh Doãn Anh  tự hào là đơn vị cung cấp dịch vụ bảo dưỡng, vệ sinh máy giặt uy tín tại Hà Nội giá rẻ. Đến với chúng tôi, khách hàng nhận về các lợi ích:</p>
 
       <ul>
-        <li>Đội ngũ nhân viên giàu kinh nghiệm, có nhiều cơ sở khắp Thanh Hóa</li>
+        <li>Đội ngũ nhân viên giàu kinh nghiệm, có nhiều cơ sở khắp Hà Nội</li>
         <li>Khách hàng nhận được bảng báo giá dịch vụ trước khi sửa chữa</li>
         <li>Chi phí sửa chữa hợp lý, báo đúng giá</li>
         <li>Linh kiện sửa chữa thay thế chính hãng, bảo hành dài hạn</li>
-        <li>Có nhiều cơ sở phủ rộng khắp Thanh Hóa, quá trình vệ sinh bảo dưỡng diễn ra nhanh hơn</li>
-        <li>Dịch vụ sửa chữa, vệ sinh – bảo dưỡng uy tín hàng đầu Thanh Hóa</li>
+        <li>Có nhiều cơ sở phủ rộng khắp Hà Nội, quá trình vệ sinh bảo dưỡng diễn ra nhanh hơn</li>
+        <li>Dịch vụ sửa chữa, vệ sinh – bảo dưỡng uy tín hàng đầu Hà Nội</li>
       </ul>
 
     </div>

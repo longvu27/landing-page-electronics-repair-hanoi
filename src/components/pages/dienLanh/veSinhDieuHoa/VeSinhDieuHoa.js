@@ -6,10 +6,10 @@ import imgVeSinhDieuHoa from '@/assets/images/dienLanh/ve_sinh_dieu_hoa.jpg';
 export default function VeSinhDieuHoa() {
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
-        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá" />
-      </div>
-      <h1 className={s.titleH1}>Vệ sinh điều hòa tại Thanh Hóa</h1>
+      {/* <div className={s.imgBanner}>
+        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
+      </div> */}
+      <h1 className={s.titleH1}>Vệ sinh điều hòa tại Hà Nội</h1>
       <p>Điều hòa là một sản phẩm sử dụng theo mùa nên cần được bảo dưỡng, vệ sinh định kỳ để đảm bảo hiệu quả hoạt động cũng như tuổi thọ sản phẩm. Dịch vụ vệ sinh điều hòa Doãn là lựa chọn hàng đầu khi khách hàng tại Doãn Anh có nhu cầu vệ sinh, bảo dưỡng điều hòa.</p>
 
       <p className={s.titleH3}>Việc vệ sinh điều hòa định kỳ là rất quan trọng để đảm bảo chất lượng không khí trong nhà. Dưới đây là hướng dẫn về tần suất vệ sinh điều hòa:</p>
@@ -31,7 +31,7 @@ export default function VeSinhDieuHoa() {
       <p>Bạn nên lên kế hoạch bảo dưỡng định kỳ bởi một kỹ thuật viên chuyên nghiệp để họ có thể thực hiện các công việc kiểm tra, làm sạch và bảo dưỡng chi tiết hơn trên các thành phần nội bộ của điều hòa để đảm bảo hoạt động tối ưu.</p>
 
       <div className={s.imgRepair}>
-        <Image src={imgVeSinhDieuHoa} alt="Sửa chữa điều hoà tại Thanh Hoá" />
+        <Image src={imgVeSinhDieuHoa} alt="Sửa chữa điều hoà tại Hà Nội" />
       </div>
 
       <p className={s.titleH2}>Dịch vụ vệ sinh điều hòa Doãn Anh uy tín – chuyên nghiệp – giá rẻ</p>
@@ -39,15 +39,15 @@ export default function VeSinhDieuHoa() {
       <ul>
         <li>Đội ngũ công nhân kỹ thuật cao, nhiều năm kinh nghiệm sửa chữa vệ sinh điều hòa</li>
         <li>Vệ sinh điều hòa tại nhà, không cần tốn thời gian đưa điều hòa về xưởng, tránh các hỏng hóc khi vận chuyển điều hòa đi vệ sinh bảo dưỡng.</li>
-        <li>Quy trình thực hiện vệ sinh điều hòa Thanh Hóa qua mỗi khâu đều chuyên nghiệp, đạt chuẩn kỹ thuật.</li>
+        <li>Quy trình thực hiện vệ sinh điều hòa Hà Nội qua mỗi khâu đều chuyên nghiệp, đạt chuẩn kỹ thuật.</li>
         <li>Phục vụ khách hàng nhanh chóng, chỉ cần khách hàng có nhu cầu 15 – 30 phút chúng tôi có mặt.</li>
         <li>Giá cả hợp lý, báo giá trước khi làm.</li>
-        <li>Ngoài vệ sinh điều hòa Thanh Hóa, Điện nước - điện lạnh Doãn Anh còn cung cấp dịch vụ sửa chữa điều hòa trên địa bàn Thanh Hóa khi khách hàng có yêu cầu.</li>
+        <li>Ngoài vệ sinh điều hòa Hà Nội, Điện nước - điện lạnh Doãn Anh còn cung cấp dịch vụ sửa chữa điều hòa trên địa bàn Hà Nội khi khách hàng có yêu cầu.</li>
         <li>Điện nước - điện lạnh Doãn Anh với đa dạng các dịch vụ điện lạnh như bơm ga, sửa chữa, bảo trì,… cho toàn bộ những thiết bị điện lạnh (Tủ lạnh, máy giặt, máy nước nóng lạnh, máy lọc nước,…) không chỉ riêng vệ sinh điều hòa.</li>
         <li>Trang thiết bị và dụng cụ luôn được Điện nước - điện lạnh Doãn Anh đầu tư đầy đủ, hiện đại và tân tiến.</li>
         <li>Cam kết hoàn tiền 100% nếu khách hàng không hài lòng về dịch vụ của chúng tôi.</li>
       </ul>
-      <p>Nếu bạn đang có nhu cầu vệ sinh điều hòa Thanh Hóa, liên hệ ngay tới hotline <span><a href="tel:0964701333">0964 701 333</a></span> để Điện nước - điện lạnh Doãn Anh có thể hỗ trợ bạn ngay.</p>
+      <p>Nếu bạn đang có nhu cầu vệ sinh điều hòa Hà Nội, liên hệ ngay tới hotline <span><a href="tel:0964701333">0964 701 333</a></span> để Điện nước - điện lạnh Doãn Anh có thể hỗ trợ bạn ngay.</p>
     </div>
   )
 }

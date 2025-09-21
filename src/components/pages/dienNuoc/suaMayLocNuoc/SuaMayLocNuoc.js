@@ -6,13 +6,13 @@ import suaMayLocNuoc from '@/assets/images/dienNuoc/sua_may_loc_nuoc.jpg';
 export default function SuaMayLocNuoc() {
   return (
     <div className={s.wrapper}>
-      <div className={s.imgBanner}>
-        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Thanh Hoá" />
-      </div>
+      {/* <div className={s.imgBanner}>
+        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
+      </div> */}
 
-      <h1 className={s.titleH1}>Sửa chữa máy lọc nước giá rẻ, uy tín tại Thanh Hóa</h1>
+      <h1 className={s.titleH1}>Sửa chữa máy lọc nước giá rẻ, uy tín tại Hà Nội</h1>
 
-      <p className={s.italic}>Sửa chữa máy lọc nước là một dịch vụ ngày càng quan trọng đối với các hộ gia đình, văn phòng hay doanh nghiệp tại Thanh Hóa. Máy lọc nước đã trở thành thiết bị không thể thiếu trong mỗi gia đình, giúp cung cấp nguồn nước sạch và an toàn. Tuy nhiên, như mọi thiết bị khác, máy lọc nước cũng gặp phải một số sự cố sau thời gian dài sử dụng. Vì vậy, dịch vụ sửa chữa máy lọc nước uy tín, chất lượng, giá cả hợp lý là nhu cầu không thể thiếu. Bài viết này Điện Lạnh Doãn Anh sẽ cung cấp cho bạn thông tin chi tiết về dịch vụ sửa chữa tại Thanh Hóa, cùng bảng giá cập nhật mới nhất, giúp bạn dễ dàng lựa chọn dịch vụ phù hợp.</p>
+      <p className={s.italic}>Sửa chữa máy lọc nước là một dịch vụ ngày càng quan trọng đối với các hộ gia đình, văn phòng hay doanh nghiệp tại Hà Nội. Máy lọc nước đã trở thành thiết bị không thể thiếu trong mỗi gia đình, giúp cung cấp nguồn nước sạch và an toàn. Tuy nhiên, như mọi thiết bị khác, máy lọc nước cũng gặp phải một số sự cố sau thời gian dài sử dụng. Vì vậy, dịch vụ sửa chữa máy lọc nước uy tín, chất lượng, giá cả hợp lý là nhu cầu không thể thiếu. Bài viết này Điện Lạnh Doãn Anh sẽ cung cấp cho bạn thông tin chi tiết về dịch vụ sửa chữa tại Hà Nội, cùng bảng giá cập nhật mới nhất, giúp bạn dễ dàng lựa chọn dịch vụ phù hợp.</p>
 
       <h2 className={s.titleH2}>Tại sao bạn cần dịch vụ sửa chữa máy lọc nước?</h2>
       <p>Máy lọc nước giúp cải thiện chất lượng nguồn nước, nhưng qua thời gian sử dụng, các bộ lọc, van, hay các linh kiện khác có thể bị hư hỏng hoặc xuống cấp. Khi đó, bạn cần đến dịch vụ sửa chữa để đảm bảo hiệu suất hoạt động của máy. Những dấu hiệu cần sửa chữa bao gồm:</p>
@@ -24,11 +24,11 @@ export default function SuaMayLocNuoc() {
       </ul>
 
       <div className={s.imgRepair}>
-        <Image src={suaMayLocNuoc} alt="Sửa chữa máy lọc nước tại Thanh Hoá" />
+        <Image src={suaMayLocNuoc} alt="Sửa chữa máy lọc nước tại Hà Nội" />
       </div>
 
       <p className={s.titleH2}>Lý do bạn nên chọn dịch vụ sửa chữa máy lọc nước tại <span>Doãn Anh</span>?</p>
-      <p>Thanh Hóa là một khu vực có nhu cầu sử dụng máy lọc nước rất cao, do điều kiện nguồn nước chưa được đảm bảo tại nhiều khu vực. Vì vậy, việc chọn một dịch vụ sửa chữa máy lọc nước chất lượng tại đây rất quan trọng.  là đơn vị chuyên cung cấp dịch vụ sửa chữa uy tín, nhanh chóng và chuyên nghiệp tại Thanh Hóa. Chúng tôi cam kết:</p>
+      <p>Hà Nội là một khu vực có nhu cầu sử dụng máy lọc nước rất cao, do điều kiện nguồn nước chưa được đảm bảo tại nhiều khu vực. Vì vậy, việc chọn một dịch vụ sửa chữa máy lọc nước chất lượng tại đây rất quan trọng.  là đơn vị chuyên cung cấp dịch vụ sửa chữa uy tín, nhanh chóng và chuyên nghiệp tại Hà Nội. Chúng tôi cam kết:</p>
       <ul>
         <li><span>Giá cả hợp lý:</span> Mọi dịch vụ sửa chữa đều có bảng giá minh bạch, rõ ràng.</li>
         <li><span>Linh kiện chính hãng:</span> Chúng tôi chỉ sử dụng các linh kiện chính hãng, đảm bảo độ bền và hiệu quả sử dụng lâu dài.</li>
@@ -40,7 +40,7 @@ export default function SuaMayLocNuoc() {
       <p>Khi lựa chọn Điện Lạnh Doãn Anh, bạn sẽ được tận hưởng nhiều lợi ích như:</p>
       <ul>
         <li><span>Nhanh chóng, chuyên nghiệp:</span> Chúng tôi cam kết đến tận nơi để sửa chữa nhanh chóng, giúp bạn tiết kiệm thời gian.</li>
-        <li><sapn>Giá cả cạnh tranh:</sapn> Giá cả minh bạch, bạn sẽ không phải lo lắng về chi phí ẩn.</li>
+        <li><span>Giá cả cạnh tranh:</span> Giá cả minh bạch, bạn sẽ không phải lo lắng về chi phí ẩn.</li>
         <li><span>Bảo hành dài hạn:</span> Sau khi sửa chữa, bạn sẽ được bảo hành lâu dài cho các linh kiện thay thế và dịch vụ sửa chữa.</li>
         <li><span>Dịch vụ tận nơi:</span> Bạn không cần phải mang máy lọc nước đi đâu, chúng tôi sẽ đến tận nhà để sửa chữa.</li>
       </ul>
