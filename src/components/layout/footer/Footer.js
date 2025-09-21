@@ -2,6 +2,52 @@ import s from './footerStyle.module.scss';
 import Image from 'next/image';
 import logo from '@/assets/images/logo.png';
 export default function Footer() {
+
+  const data1 = [
+    {
+      title: 'Quận Cầu Giấy',
+      desc: ['138 phố Hoa Bằng, Phường Yên Hòa', '45 Dương Quảng Hàm, Phường Quan Hoa']
+    },
+    {
+      title: 'Quận Thanh Xuân',
+      desc: ['Số 32 Nguyễn Ngọc Nại, Phường Khương Mai', 'Số 121 Vương Thừa Vũ, Phường Khương Trung']
+    },
+    {
+      title: 'Quận Tây Hồ',
+      desc: ['Số 28 Nghĩa Đô, Phường Xuân La', 'Số 24 Âu Cơ, Phường Tứ Liên']
+    },
+    {
+      title: 'Quận Hà Đông',
+      desc: [' 110 Đường Trần Phú, Phường Mộ Lao', 'Tổ 12, Phường Phú Lương']
+    },
+    {
+      title: 'Quận Hoàng Mai',
+      desc: ['Số 220 Lĩnh Nam, Phường Trần Phú', 'Số 145 Phố ĐỊnh Công Hạ, Tổ 3, Phường Định Công']
+    },
+  ]
+
+  const data2 = [
+    {
+      title: 'Huyện Thạch Thất',
+      desc: ['Thôn 3, Xã Canh Nậu', 'Đội 3, thôn Hương Lam, Xã Đại Đồng']
+    },
+    {
+      title: 'Huyện Đông Anh',
+      desc: ['34 Đa Lộc, Thôn Bầu, Xã Kim Chung', 'Thôn Thọ Đa, Xã Kim Nỗ']
+    },
+    {
+      title: 'Huyện Gia Lâm',
+      desc: ['489 Hà Huy Tập, Thị trấn Yên Viên', 'Thôn Viên Ngoại, xã Đặng Xá']
+    },
+    {
+      title: 'Huyện Hoài Đức',
+      desc: ['Thôn Thắng Lợi, Xã La Phù', 'Thôn Trung Kỳ, Xã Đắc Sở']
+    },
+    {
+      title: 'Thị xã Sơn Tây',
+      desc: ['Thôn Đông Sàng, Xã Đường Lâm', 'Thôn Thiên Mã, Xã Cổ Đông']
+    },
+  ]
   return (
     <div className={s.footer}>
       <div className={`width-container ${s.container}`}>
@@ -16,15 +62,30 @@ export default function Footer() {
 
         </div>
         <div className={s.item}>
-          <div className={s.title}>Dịch Vụ</div>
-          <p>Sửa chữa điện nước: máy lọc nước, bình nóng lạnh,...</p>
-          <p>Sửa chữa điện lạnh: điều hoà, tủ lạnh,... </p>
+          <div className={s.title}>Khu vực nội thành</div>
+          {data1.map((item, index) => (
+            <div key={index}>
+              <div style={{ textDecoration: 'underline', marginBottom: '5px' }}>{item.title}</div>
+              <ul>
+                {item.desc.map((itemD, indexD) => (
+                  <li key={indexD}>{itemD}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
         <div className={s.item}>
-          <div className={s.title}>Liên Hệ</div>
-          <p>Địa chỉ: Thôn 2, Thiệu Lý, Thiệu Hoá, Thanh Hoá</p>
-          <p>Điện thoại: <a href="tel:0964701333">0964 701 333</a></p>
-
+          <div className={s.title}>Khu vực ngoại thành</div>
+          {data2.map((item, index) => (
+            <div key={index}>
+              <div style={{ textDecoration: 'underline', marginBottom: '5px' }}>{item.title}</div>
+              <ul>
+                {item.desc.map((itemD, indexD) => (
+                  <li key={indexD}>{itemD}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
       <div className={s.footerText}>

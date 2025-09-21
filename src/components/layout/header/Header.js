@@ -24,7 +24,7 @@ export default function Header() {
         <div className={s.right}>
           <div className={s.item}>
             <Image src={location} alt='location' />
-            <p>Hỗ trợ tận nơi: <span>Nội thành Hà Nội</span> </p>
+            <p>Hỗ trợ tận nơi: <span>Hà Nội</span> </p>
           </div>
           <div className={s.item}>
             <Image src={phone} alt='phone number' />
