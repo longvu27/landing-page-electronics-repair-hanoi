@@ -6,10 +6,6 @@ import suaMayLocNuoc from '@/assets/images/dienNuoc/sua_may_loc_nuoc.jpg';
 export default function SuaMayLocNuoc() {
   return (
     <div className={s.wrapper}>
-      {/* <div className={s.imgBanner}>
-        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div> */}
-
       <h1 className={s.titleH1}>Sửa chữa máy lọc nước giá rẻ, uy tín tại Hà Nội</h1>
 
       <p className={s.italic}>Sửa chữa máy lọc nước là một dịch vụ ngày càng quan trọng đối với các hộ gia đình, văn phòng hay doanh nghiệp tại Hà Nội. Máy lọc nước đã trở thành thiết bị không thể thiếu trong mỗi gia đình, giúp cung cấp nguồn nước sạch và an toàn. Tuy nhiên, như mọi thiết bị khác, máy lọc nước cũng gặp phải một số sự cố sau thời gian dài sử dụng. Vì vậy, dịch vụ sửa chữa máy lọc nước uy tín, chất lượng, giá cả hợp lý là nhu cầu không thể thiếu. Bài viết này Điện Lạnh Doãn Anh sẽ cung cấp cho bạn thông tin chi tiết về dịch vụ sửa chữa tại Hà Nội, cùng bảng giá cập nhật mới nhất, giúp bạn dễ dàng lựa chọn dịch vụ phù hợp.</p>
@@ -32,7 +28,7 @@ export default function SuaMayLocNuoc() {
       <ul>
         <li><span>Giá cả hợp lý:</span> Mọi dịch vụ sửa chữa đều có bảng giá minh bạch, rõ ràng.</li>
         <li><span>Linh kiện chính hãng:</span> Chúng tôi chỉ sử dụng các linh kiện chính hãng, đảm bảo độ bền và hiệu quả sử dụng lâu dài.</li>
-        <li><span>Kỹ thuật viên giàu kinh nghiệm:</span> Đội ngũ kỹ thuật viên tại <span>Doãn Anh</span> có nhiều năm kinh nghiệm trong ngành sửa chữa điện lạnh, đảm bảo máy lọc nước của bạn sẽ được khắc phục một cách nhanh chóng và chính xác.</li>
+        <li><span>Kỹ thuật viên giàu kinh nghiệm:</span> Đội ngũ kỹ thuật viên tại <span>Doãn Anh</span> có nhiều năm kinh nghiệm trong ngành sửa chữa điện nước, đảm bảo máy lọc nước của bạn sẽ được khắc phục một cách nhanh chóng và chính xác.</li>
         <li>Bảo hành dài hạn: Sau khi sửa chữa, chúng tôi sẽ cung cấp chế độ bảo hành dài hạn cho mọi dịch vụ.</li>
       </ul>
 

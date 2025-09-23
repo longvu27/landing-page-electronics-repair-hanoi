@@ -8,6 +8,10 @@ import suaMayLocNuoc from '@/assets/images/home/sua_may_loc_nuoc.png';
 import img_card_ve_sinh_may_giat from '@/assets/images/dienNuoc/ve_sinh_may_giat.jpeg';
 import img_card_sua_may_loc_nuoc from '@/assets/images/dienNuoc/sua_may_loc_nuoc.jpg';
 import img_card_sua_binh_nong_lanh from '@/assets/images/dienNuoc/sua_binh_nong_lanh.jpg';
+import suaChuaDienNuoc from '@/assets/images/dienNuoc/sua_chua_dien_nuoc.jpg';
+import suaDuongOngNuoc from '@/assets/images/dienNuoc/sua_duong_ong_nuoc.jpg';
+import suaMayBomNuoc from '@/assets/images/dienNuoc/sua_may_bom_nuoc.jpg';
+
 import img_card_lap_dat_dieu_hoa from '@/assets/images/dienLanh/lap_dat_dieu_hoa.jpg';
 import img_card_sua_chua_tu_lanh from '@/assets/images/dienLanh/sua_chua_tu_lanh.jpg';
 import img_card_ve_sinh_dieu_hoa from '@/assets/images/dienLanh/ve_sinh_dieu_hoa.jpg';
@@ -24,6 +28,11 @@ export default function HomePage() {
 
   const dataCardBlog = [
     {
+      title: 'Sửa chữa điện nước từ A-Z',
+      img: suaChuaDienNuoc,
+      link: '/dien-nuoc/sua-chua-dien-nuoc',
+    },
+    {
       title: 'Vệ sinh máy giặt',
       img: img_card_ve_sinh_may_giat,
       link: '/dien-nuoc/ve-sinh-may-giat',
@@ -39,19 +48,14 @@ export default function HomePage() {
       link: '/dien-nuoc/sua-binh-nong-lanh',
     },
     {
-      title: 'Lắp đặt điều hoà',
-      img: img_card_lap_dat_dieu_hoa,
-      link: '/dien-lanh/lap-dat-dieu-hoa',
+      title: 'Sửa máy bơm nước',
+      img: suaMayBomNuoc,
+      link: '/dien-nuoc/sua-may-bom-nuoc',
     },
     {
-      title: 'Sửa chữa tủ lạnh',
-      img: img_card_sua_chua_tu_lanh,
-      link: '/dien-lanh/sua-chua-tu-lanh',
-    },
-    {
-      title: 'Vệ sinh điều hoà',
-      img: img_card_ve_sinh_dieu_hoa,
-      link: '/dien-lanh/ve-sinh-dieu-hoa',
+      title: 'Sửa Chữa Vỡ Đường Ống Nước',
+      img: suaDuongOngNuoc,
+      link: '/dien-nuoc/sua-duong-ong-nuoc',
     },
   ]
 
@@ -84,13 +88,6 @@ export default function HomePage() {
 
   return (
     <div className={s.wrapper}>
-      {/* <div className={s.imgBanner}>
-        <Image
-          src={imgRepair}
-          alt="Sửa chữa điện nước điện lạnh tại Hà Nội"
-          sizes="(max-width: 768px) 100vw, 1200px"
-        />
-      </div> */}
       <div className={s.aboutMe}>
         <div className={s.head}>
           Về chúng tôi
@@ -98,7 +95,7 @@ export default function HomePage() {
         </div>
         <div className={s.body}>
           <div className={s.text}>
-            Sửa chữa điện nước <span>Doãn Anh</span> là một trong những đơn vị hàng đầu tại khu vực Hà Nội trong lĩnh vực: Sửa chữa điện nước, sửa chữa điều hoà, sửa chữa bình nóng lạnh, sửa chữa máy bơm, sửa chữa máy giặt, vòi sen nước, sửa chữa đường ống nước… Chúng tôi hoạt động 24/7 tại các khu vực nội thành khu vực Hà Nội. Bạn đang bị sự cố về điện và nước trong gia đình, hãy gọi cho chúng tôi để được giải quyết một cách nhanh chóng và hiệu quả nhất !
+            Sửa chữa điện nước <span>Doãn Anh</span> là một trong những đơn vị hàng đầu tại khu vực Hà Nội trong lĩnh vực: Sửa chữa điện nước, sửa chữa bình nóng lạnh, sửa chữa máy bơm, sửa chữa máy giặt, vòi sen nước, sửa chữa đường ống nước… Chúng tôi hoạt động 24/7 tại các khu vực nội thành khu vực Hà Nội. Bạn đang bị sự cố về điện và nước trong gia đình, hãy gọi cho chúng tôi để được giải quyết một cách nhanh chóng và hiệu quả nhất !
             <br />
             <div>
               Chúng tôi luôn xem mỗi khách hàng là một ân nhân, phục vụ tận tâm, nhanh chóng và chất lượng.
@@ -124,10 +121,10 @@ export default function HomePage() {
           ))}
         </div>
 
-        <p>Nếu bạn đang gặp sự cố với các thiết bị điện nước điện lạnh tại nhà hoặc văn phòng, đừng ngần ngại liên hệ ngay với chúng tôi. Gọi ngay để được tư vấn và nhận dịch vụ sửa chữa nhanh chóng, uy tín.</p>
+        <p>Nếu bạn đang gặp sự cố với các thiết bị điện nước tại nhà hoặc văn phòng, đừng ngần ngại liên hệ ngay với chúng tôi. Gọi ngay để được tư vấn và nhận dịch vụ sửa chữa nhanh chóng, uy tín.</p>
 
-        <p>Tại sao lựa chọn dịch vụ sửa chữa điện lạnh tại <span>Doãn Anh</span>?</p>
-        <p>Giải pháp tối ưu cho mọi sự cố điện lạnh: Với kiến thức chuyên sâu và kinh nghiệm lâu năm, chúng tôi tự tin cung cấp các giải pháp sửa chữa nhanh chóng và hiệu quả nhất cho mọi loại thiết bị điện lạnh.</p>
+        <p>Tại sao lựa chọn dịch vụ sửa chữa điện nước tại <span>Doãn Anh</span>?</p>
+        <p>Giải pháp tối ưu cho mọi sự cố điện nước: Với kiến thức chuyên sâu và kinh nghiệm lâu năm, chúng tôi tự tin cung cấp các giải pháp sửa chữa nhanh chóng và hiệu quả nhất cho mọi loại thiết bị điện nước.</p>
 
         <p>Dịch vụ sửa chữa tại nhà tiện lợi: Bạn không cần phải lo lắng về việc mang thiết bị đi sửa chữa. Chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa nhanh chóng.</p>
 
@@ -136,11 +133,11 @@ export default function HomePage() {
         <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333">0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
       </div>
 
-      <p className={s.titleH2}>Dịch vụ Điện Nước Điện Lạnh Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</p>
+      <p className={s.titleH2}>Dịch vụ Điện Nước Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</p>
 
-      <p>Chúng tôi cung cấp dịch vụ sửa chữa điện nước điện lạnh chất lượng cao, với đội ngũ kỹ thuật viên có nhiều năm kinh nghiệm trong ngành. Các dịch vụ của chúng tôi bao gồm sửa chữa tủ lạnh, máy lạnh, máy giặt, tivi, lò vi sóng, máy điều hòa và các thiết bị điện lạnh khác. Dù bạn gặp vấn đề với thiết bị gia đình hay cần sửa chữa cho doanh nghiệp của mình, chúng tôi luôn sẵn sàng hỗ trợ nhanh chóng và hiệu quả.</p>
+      <p>Chúng tôi cung cấp dịch vụ sửa chữa điện nước chất lượng cao, với đội ngũ kỹ thuật viên có nhiều năm kinh nghiệm trong ngành. Các dịch vụ của chúng tôi bao gồm sửa chữa máy giặt, máy lọc nước, máy bơm và các thiết bị khác. Dù bạn gặp vấn đề với thiết bị gia đình hay cần sửa chữa cho doanh nghiệp của mình, chúng tôi luôn sẵn sàng hỗ trợ nhanh chóng và hiệu quả.</p>
 
-      <p>Chúng tôi cam kết mang lại cho bạn dịch vụ sửa chữa điện lạnh chất lượng nhất, với đội ngũ thợ sửa chữa lành nghề. Đặc biệt, chúng tôi cung cấp dịch vụ sửa chữa tại nhà, giúp bạn tiết kiệm thời gian và công sức. Dù bạn ở bất kỳ khu vực nào tại Hà Nội, chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa thiết bị điện lạnh của bạn.</p>
+      <p>Chúng tôi cam kết mang lại cho bạn dịch vụ sửa chữa điện nước chất lượng nhất, với đội ngũ thợ sửa chữa lành nghề. Đặc biệt, chúng tôi cung cấp dịch vụ sửa chữa tại nhà, giúp bạn tiết kiệm thời gian và công sức. Dù bạn ở bất kỳ khu vực nào tại Hà Nội, chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa thiết bị điện nước của bạn.</p>
 
       <div className={s.listImg}>
         <div className={s.img}>
@@ -154,15 +151,9 @@ export default function HomePage() {
         </div>
       </div>
 
-      <p className={s.titleH3}>Dịch vụ sửa chữa điện lạnh của chúng tôi bao gồm:</p>
+      <p className={s.titleH3}>Dịch vụ sửa chữa điện nước của chúng tôi bao gồm:</p>
 
       <ul>
-        <li>
-          <p><span>Sửa chữa tủ lạnh:</span> từ việc không làm lạnh cho đến các lỗi nặng như tủ lạnh không xả tuyết, hỏng block.</p>
-        </li>
-        <li>
-          <p><span>Sửa chữa máy lạnh:</span> bao gồm các vấn đề như máy lạnh không mát, máy lạnh bị chảy nước, và các sự cố khác.</p>
-        </li>
         <li>
           <p><span>Sửa chữa máy giặt:</span> từ lỗi không vắt, không xả nước, đến các lỗi về động cơ.</p>
         </li>
@@ -204,7 +195,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className={s.titleH1} style={{ margin: '20px auto' }}>Các sản phẩm của chúng tôi</div>
+      {/* <div className={s.titleH1} style={{ margin: '20px auto' }}>Các sản phẩm của chúng tôi</div>
       <p>Chúng tôi luôn có sẵn nhiều mẫu mã đa dạng, hàng mới, hàng thanh lý giá rẻ – cập nhật thường xuyên. Hãy liên hệ trực tiếp để được tư vấn mẫu mã và giá cụ thể phù hợp với nhu cầu của bạn.</p>
       <div className={s.listCard}>
         {dataProduct.map((item, index) => (
@@ -216,7 +207,7 @@ export default function HomePage() {
             <div className={s.btn}>Liên hệ ngay</div>
           </Link>
         ))}
-      </div>
+      </div> */}
 
       <div>
         <p>
@@ -225,14 +216,6 @@ export default function HomePage() {
             Sửa chữa điện nước Hà Nội
           </Link>
           {' '}với giá tốt nhất.
-        </p>
-
-        <p>
-          Nếu bạn đang cần{' '}
-          <Link href="/dien-lanh">
-            Sửa chữa điện lạnh tại Hà Nội
-          </Link>
-          , chúng tôi luôn sẵn sàng phục vụ nhanh chóng.
         </p>
       </div>
       <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333">0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>

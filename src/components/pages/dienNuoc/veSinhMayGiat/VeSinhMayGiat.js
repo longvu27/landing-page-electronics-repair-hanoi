@@ -6,9 +6,6 @@ import imgVeSinhMayGiat from '@/assets/images/dienNuoc/ve_sinh_may_giat.jpeg';
 export default function VeSinhMayGiat() {
   return (
     <div className={s.wrapper}>
-      {/* <div className={s.imgBanner}>
-        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div> */}
       <h1 className={s.titleH1}>Vệ sinh máy giặt tại Hà Nội</h1>
 
       <p>Vệ sinh máy giặt giúp loại bỏ cặn bẩn và chất cặn tích tụ giảm tình trạng hao mòn và hư hỏng của các bộ phận trong máy. Theo dõi bài viết dưới để tìm hiểu về đơn vị cung cấp dịch vụ vệ sinh máy giặt Hà Nội uy tín.</p>

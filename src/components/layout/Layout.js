@@ -21,9 +21,7 @@ export default function Layout({ children }) {
       <div className={`width-container ${s.main}`}>
         {children}
       </div>
-      {pathName === '/' &&
-        <FeedBack />
-      }
+      <FeedBack />
       <TopFooter />
       <Footer />
     </div>

@@ -7,10 +7,6 @@ export default function SuaBinhNongLanh() {
 
   return (
     <div className={s.wrapper}>
-      {/* <div className={s.imgBanner}>
-        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div> */}
-
       <h1 className={s.titleH1}>Dịch vụ sửa bình nóng lạnh tại Hà Nội giá rẻ</h1>
       <p>Sửa chữa bình nóng lạnh tại Hà Nội nhanh chóng, hiệu quả với đội ngũ kỹ thuật viên chuyên nghiệp. Chúng tôi xử lý mọi sự cố của bình nóng lạnh, từ lỗi nhỏ đến những vấn đề phức tạp. Cam kết sửa chữa nhanh chóng, giá hợp lý và bảo hành lâu dài. Liên hệ ngay để được tư vấn chi tiết và giải quyết sự cố ngay lập tức.</p>
 

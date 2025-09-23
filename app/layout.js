@@ -11,19 +11,19 @@ const roboto = Roboto({
 
 export const metadata = {
   metadataBase: new URL(`https://suachuadienlanhthanhhoa.vercel.app/`),
-  title: "Dịch Vụ Điện Nước, Điện Lạnh Hà Nội",
-  description: "Chuyên sửa chữa, bảo trì điện nước, điện lạnh tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
-  keywords: "sửa chữa điện nước, sửa chữa điện lạnh, sửa tivi, sửa máy lạnh, sửa tủ lạnh, máy lọc nước",
+  title: "Dịch Vụ Điện Nước Hà Nội",
+  description: "Chuyên sửa chữa, bảo trì điện nước tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
+  keywords: "sửa chữa điện nước, sửa tivi, máy lọc nước, máy bơm, máy giặt, bình nóng lạnh",
 
   openGraph: {
-    title: "Dịch Vụ Điện Nước, Điện Lạnh Hà Nội",
-    description: "Chuyên sửa chữa, bảo trì điện nước, điện lạnh tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
+    title: "Dịch Vụ Điện Nước Hà Nội",
+    description: "Chuyên sửa chữa, bảo trì điện nước tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
     images: [
       {
         url: thumbnail.src,
         width: 1200,
         height: 630,
-        alt: "Dịch Vụ Điện Nước Điện Lạnh Hà Nội",
+        alt: "Dịch Vụ Điện Nước Hà Nội",
       },
     ],
   },
@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Dịch Vụ Điện Nước, Điện Lạnh Hà Nội",
+              "name": "Dịch Vụ Điện Nước Hà Nội",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Hà Nội",
@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
               },
               "telephone": "+84342886598",
               "openingHours": "Mo-Su 08:00-22:00",
-              "description": "Chuyên sửa chữa, bảo trì điện nước, điện lạnh tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
+              "description": "Chuyên sửa chữa, bảo trì điện nước tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
             })
           }}
         />

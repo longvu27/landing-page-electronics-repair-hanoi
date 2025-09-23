@@ -6,10 +6,6 @@ export default function DienNuoc() {
 
   return (
     <div className={s.wrapper}>
-      {/* <div className={s.imgBanner}>
-        <Image src={imgRepair} alt="Sửa chữa điện nước điện lạnh tại Hà Nội" />
-      </div> */}
-
       <h1 className={s.titleH1}>Dịch Vụ Sửa Chữa Điện Nước Tại Hà Nội - Nhanh Chóng, Giá Rẻ</h1>
 
       <p>Chuyên nhận sửa chữa điện nước dân dụng tại Hà Nội: thay dây điện, sửa ống nước rò rỉ, lắp đặt thiết bị điện nước mới, xử lý sự cố điện nước an toàn, nhanh chóng.</p>
