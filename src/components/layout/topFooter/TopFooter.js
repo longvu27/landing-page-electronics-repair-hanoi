@@ -19,7 +19,7 @@ export default function TopFooter() {
     {
       icon: time247,
       title: "Hỗ Trợ 24/7",
-      desc: "Luôn sẵn sàng phục vụ 24/7, kể cả ngày lễ và cuối tuần, đảm bảo xử lý nhanh chóng mọi sự cố điện nước, điện lạnh khi bạn cần.",
+      desc: "Luôn sẵn sàng phục vụ 24/7, kể cả ngày lễ và cuối tuần, đảm bảo xử lý nhanh chóng mọi sự cố điện nước khi bạn cần.",
     },
   ];
 

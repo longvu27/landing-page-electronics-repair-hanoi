@@ -22,7 +22,7 @@ export default function FeedBack() {
       location: 'Phường Bách Khoa, Quận Hai Bà Trưng',
     },
     {
-      content: 'Điều hoà không mát, gọi thợ tới trong ngày, kiểm tra và nạp gas xong chạy êm ru, mát lạnh như mới.',
+      content: 'Máy lọc nước bị yếu, gọi thợ đến trong ngày, kiểm tra và xử lý gọn gàng, nước chảy mạnh và trong veo như ban đầu.',
       name: 'Lê Văn Khánh',
       img: img_person_joined_3,
       location: 'Phố Đinh Tiên Hoàng, quận Hoàn Kiếm',
