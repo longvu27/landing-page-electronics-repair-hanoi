@@ -3,6 +3,7 @@ import s from './homePageStyle.module.scss';
 import imgRepair from '@/assets/images/dien_lanh.jpg';
 import Link from 'next/link';
 import suaDieuHoa from '@/assets/images/home/sua_dieu_hoa.png';
+import sua_binh_nong_lanh from '@/assets/images/home/sua_binh_nong_lanh.jpg';
 import suaMayGiat from '@/assets/images/home/sua_may_giat.png';
 import suaMayLocNuoc from '@/assets/images/home/sua_may_loc_nuoc.png';
 import img_card_ve_sinh_may_giat from '@/assets/images/dienNuoc/ve_sinh_may_giat.jpeg';
@@ -141,7 +142,7 @@ export default function HomePage() {
 
       <div className={s.listImg}>
         <div className={s.img}>
-          <Image src={suaDieuHoa} alt='sửa chữa điều hoà' />
+          <Image src={sua_binh_nong_lanh} alt='sửa chữa bình nóng lạnh' />
         </div>
         <div className={s.img}>
           <Image src={suaMayGiat} alt='sửa chữa máy giặt' />
