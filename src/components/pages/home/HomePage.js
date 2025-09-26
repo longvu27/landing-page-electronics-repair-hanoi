@@ -103,7 +103,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className={s.img}>
-            <Image src={about_us} alt='about_us' />
+            <Image src={about_us} alt='about_us' style={{ maxWidth: '250px', height: 'fit-content' }} />
           </div>
         </div>
       </div>
