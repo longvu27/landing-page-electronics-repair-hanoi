@@ -14,7 +14,9 @@ export const metadata = {
   title: "Dịch Vụ Điện Nước Hà Nội",
   description: "Chuyên sửa chữa, bảo trì điện nước tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
   keywords: "sửa chữa điện nước, sửa tivi, máy lọc nước, máy bơm, máy giặt, bình nóng lạnh",
-
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     title: "Dịch Vụ Điện Nước Hà Nội",
     description: "Chuyên sửa chữa, bảo trì điện nước tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
