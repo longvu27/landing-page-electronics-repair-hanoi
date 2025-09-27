@@ -89,6 +89,19 @@ export default function HomePage() {
 
   return (
     <div className={s.wrapper}>
+      <div className={s.hidden}>
+        <h1 className={s.titleH1}>Dịch vụ Điện Nước Tại Hà Nội</h1>
+        <div className={s.service}>
+          <h2>Dịch vụ của chúng tôi tại Hà Nội</h2>
+          <ul>
+            <li><h3>Dịch Vụ Điện Nước: sửa chữa máy bơm, máy lọc nước</h3></li>
+            <li><h3>Dịch Vụ Điện Lạnh: sửa Điều Hoà Tại Nhà Hà Nội</h3></li>
+            <li><h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Hà Nội</h4></li>
+            <li><h5>Sửa chữa Tủ lạnh, máy giặt tại Hà Nội</h5></li>
+            <li><h6>Tư vấn miễn phí, báo giá nhanh chóng </h6></li>
+          </ul>
+        </div>
+      </div>
       <div className={s.aboutMe}>
         <div className={s.head}>
           Về chúng tôi
@@ -134,7 +147,7 @@ export default function HomePage() {
         <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333">0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
       </div>
 
-      <p className={s.titleH2}>Dịch vụ Điện Nước Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</p>
+      <h2 className={s.titleH2}>Dịch vụ Điện Nước Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</h2>
 
       <p>Chúng tôi cung cấp dịch vụ sửa chữa điện nước chất lượng cao, với đội ngũ kỹ thuật viên có nhiều năm kinh nghiệm trong ngành. Các dịch vụ của chúng tôi bao gồm sửa chữa máy giặt, máy lọc nước, máy bơm và các thiết bị khác. Dù bạn gặp vấn đề với thiết bị gia đình hay cần sửa chữa cho doanh nghiệp của mình, chúng tôi luôn sẵn sàng hỗ trợ nhanh chóng và hiệu quả.</p>
 
@@ -152,7 +165,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <p className={s.titleH3}>Dịch vụ sửa chữa điện nước của chúng tôi bao gồm:</p>
+      <h3 className={s.titleH3}>Dịch vụ sửa chữa điện nước của chúng tôi bao gồm:</h3>
 
       <ul>
         <li>
@@ -181,20 +194,6 @@ export default function HomePage() {
           <p><span>Chất lượng dịch vụ vượt trội:</span> Chúng tôi luôn nỗ lực để mang lại dịch vụ sửa chữa tốt nhất, đáp ứng mọi nhu cầu của khách hàng.</p>
         </li>
       </ul>
-
-      <div className={s.hidden}>
-        <h1 className={s.titleH1}>Dịch vụ Điện Nước Điện Lạnh Tại Hà Nội</h1>
-        <div className={s.service}>
-          <h2>Dịch vụ của chúng tôi tại Hà Nội</h2>
-          <ul>
-            <li><h3>Dịch Vụ Điện Nước: sửa chữa máy bơm, máy lọc nước</h3></li>
-            <li><h3>Dịch Vụ Điện Lạnh: sửa Điều Hoà Tại Nhà Hà Nội</h3></li>
-            <li><h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Hà Nội</h4></li>
-            <li><h5>Sửa chữa Tủ lạnh, máy giặt tại Hà Nội</h5></li>
-            <li><h6>Tư vấn miễn phí, báo giá nhanh chóng </h6></li>
-          </ul>
-        </div>
-      </div>
 
       {/* <div className={s.titleH1} style={{ margin: '20px auto' }}>Các sản phẩm của chúng tôi</div>
       <p>Chúng tôi luôn có sẵn nhiều mẫu mã đa dạng, hàng mới, hàng thanh lý giá rẻ – cập nhật thường xuyên. Hãy liên hệ trực tiếp để được tư vấn mẫu mã và giá cụ thể phù hợp với nhu cầu của bạn.</p>
