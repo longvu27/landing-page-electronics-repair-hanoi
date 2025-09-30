@@ -11,21 +11,21 @@ const roboto = Roboto({
 
 export const metadata = {
   metadataBase: new URL(`https://dichvudiennuochanoi247.com/`),
-  title: "Dịch Vụ Điện Nước Hà Nội",
-  description: "Chuyên sửa chữa, bảo trì điện nước tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
+  title: "Sửa chữa điện nước Hà Nội 24/7 | Dịch vụ điện nước uy tín giá rẻ",
+  description: "Dịch vụ sửa chữa điện nước tại Hà Nội 24/7 - Thợ giỏi, có mặt nhanh. Uy tín, giá rẻ, bảo hành dài hạn. Liên hệ ngay để được hỗ trợ!",
   keywords: "sửa chữa điện nước, sửa tivi, máy lọc nước, máy bơm, máy giặt, bình nóng lạnh",
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Dịch Vụ Điện Nước Hà Nội",
-    description: "Chuyên sửa chữa, bảo trì điện nước tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
+    title: "Sửa chữa điện nước Hà Nội 24/7 | Dịch vụ điện nước uy tín giá rẻ",
+    description: "Dịch vụ sửa chữa điện nước tại Hà Nội 24/7 - Thợ giỏi, có mặt nhanh. Uy tín, giá rẻ, bảo hành dài hạn. Liên hệ ngay để được hỗ trợ!",
     images: [
       {
         url: thumbnail.src,
         width: 1200,
         height: 630,
-        alt: "Dịch Vụ Điện Nước Hà Nội",
+        alt: "Sửa chữa điện nước Hà Nội 24/7 | Dịch vụ điện nước uy tín giá rẻ",
       },
     ],
   },
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Dịch Vụ Điện Nước Hà Nội",
+              "name": "Sửa chữa điện nước Hà Nội 24/7 | Dịch vụ điện nước uy tín giá rẻ",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Hà Nội",
@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
               },
               "telephone": "+84964701333",
               "openingHours": "Mo-Su 08:00-22:00",
-              "description": "Chuyên sửa chữa, bảo trì điện nước tại Hà Nội. Dịch vụ uy tín, chuyên nghiệp, hỗ trợ nhanh 24/7. Cam kết chất lượng, giá tốt nhất!",
+              "description": "Dịch vụ sửa chữa điện nước tại Hà Nội 24/7 - Thợ giỏi, có mặt nhanh. Uy tín, giá rẻ, bảo hành dài hạn. Liên hệ ngay để được hỗ trợ!",
             })
           }}
         />
