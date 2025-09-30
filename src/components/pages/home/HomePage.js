@@ -90,7 +90,7 @@ export default function HomePage() {
   return (
     <div className={s.wrapper}>
       <div className={s.hidden}>
-        <h1 className={s.titleH1}>Dịch vụ Điện Nước Tại Hà Nội</h1>
+        <h1 className={s.titleH1}>Sửa chữa điện nước tại Hà Nội 24/7 - Dịch vụ uy tín chuyên nghiệp</h1>
         <div className={s.service}>
           <h2>Dịch vụ của chúng tôi tại Hà Nội</h2>
           <ul>
