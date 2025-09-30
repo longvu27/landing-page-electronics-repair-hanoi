@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image';
 import s from './homePageStyle.module.scss';
 import imgRepair from '@/assets/images/dien_lanh.jpg';
@@ -24,6 +25,7 @@ import img_may_loc_nuoc from '@/assets/images/home/may_loc_nuoc.webp';
 import img_may_phat_dien from '@/assets/images/home/may_phat_dien.jpg';
 import img_tu_lanh from '@/assets/images/home/tu_lanh.webp';
 import about_us from '@/assets/images/home/about_us.png';
+import { trackingCallNow } from '@/src/service/tracking';
 
 export default function HomePage() {
 
@@ -144,7 +146,7 @@ export default function HomePage() {
 
         <p>Giá cả phải chăng, bảo hành dài hạn: Với mức giá hợp lý, chúng tôi cam kết không phát sinh thêm chi phí, đồng thời bảo hành dài hạn cho mọi dịch vụ.</p>
 
-        <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333">0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
+        <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333" onClick={trackingCallNow}>0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
       </div>
 
       <h2 className={s.titleH2}>Dịch vụ Điện Nước Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</h2>
@@ -218,7 +220,7 @@ export default function HomePage() {
           {' '}với giá tốt nhất.
         </p>
       </div>
-      <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333">0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
+      <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333" onClick={trackingCallNow}>0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
     </div>
   );
 }

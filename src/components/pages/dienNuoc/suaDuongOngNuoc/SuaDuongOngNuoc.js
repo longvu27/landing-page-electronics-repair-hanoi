@@ -1,6 +1,9 @@
+'use client'
+
 import Image from 'next/image';
 import s from './suaDuongOngNuocStyle.module.scss';
 import suaDuongOngNuoc from '@/assets/images/dienNuoc/sua_duong_ong_nuoc.jpg';
+import { trackingCallNow } from '@/src/service/tracking';
 
 export default function SuaDuongOngNuoc() {
 
@@ -44,7 +47,7 @@ export default function SuaDuongOngNuoc() {
         <li>Thanh toán và viết giấy bảo hành</li>
       </ul>
 
-      <p>Nếu có bất kỳ vấn đề gì về các thiết bị điện nước trong gia đình bạn, hãy gọi cho chúng tôi theo Hotline: <span><a href="tel:0964701333">0964 701 333</a></span> bất kể khi nào bạn cần. Hoặc nhấn vào nút gọi / chat zalo ngay trên trang web</p>
+      <p>Nếu có bất kỳ vấn đề gì về các thiết bị điện nước trong gia đình bạn, hãy gọi cho chúng tôi theo Hotline: <span><a href="tel:0964701333" onClick={trackingCallNow}>0964 701 333</a></span> bất kể khi nào bạn cần. Hoặc nhấn vào nút gọi / chat zalo ngay trên trang web</p>
       <p>Liên hệ ngay với chúng tôi qua số điện thoại  để được hỗ trợ tốt nhất.</p>
     </div>
   )
