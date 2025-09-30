@@ -5,6 +5,7 @@ import location from '@/assets/images/icons/location.svg';
 import phone from '@/assets/images/icons/phone.svg';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import { trackingCallNow } from '@/src/service/tracking';
 
 export default function Header() {
   const router = useRouter();
@@ -28,7 +29,7 @@ export default function Header() {
           </div>
           <div className={s.item}>
             <Image src={phone} alt='phone number' />
-            <p><a href="tel:0964701333">0964 701 333</a></p>
+            <p><a href="tel:0964701333" onClick={trackingCallNow}>0964 701 333</a></p>
           </div>
         </div>
       </div>

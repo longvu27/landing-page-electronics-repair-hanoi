@@ -1,14 +1,17 @@
+'use client'
+
 import s from './callNowStyle.module.scss';
 import Image from 'next/image';
 import imgZalo from '@/assets/images/zalo.png';
 import Link from 'next/link';
 import phone from '@/assets/images/icons/phone.svg';
+import { trackingCallNow } from '@/src/service/tracking';
 
 export default function CallNow() {
 
   return (
     <div className={s.wrapper}>
-      <Link href="tel:0964701333" target="_blank">
+      <Link href="tel:0964701333" target="_blank" onClick={trackingCallNow}>
         <div className={s.container}>
           <div className={s.circle}></div>
           <div className={s.circleFill}></div>

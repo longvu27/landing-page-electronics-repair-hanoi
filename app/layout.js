@@ -2,6 +2,7 @@ import thumbnail from '@/public/thumbnail.png';
 import "../styles/globalsStyle.scss";
 import { Roboto } from "next/font/google";
 import Layout from '@/src/components/layout/Layout';
+import Script from 'next/script';
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -43,6 +44,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="vi">
       <head>
+        {/* GA4 Global Site Tag */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-5PCGKB40YK`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5PCGKB40YK');
+          `}
+        </Script>
       </head>
       <body className={roboto.variable}>
         <Layout>

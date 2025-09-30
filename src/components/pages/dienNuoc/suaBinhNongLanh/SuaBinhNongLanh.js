@@ -1,7 +1,10 @@
+'use client'
+
 import Image from 'next/image';
 import s from './suaBinhNongLanhStyle.module.scss';
 import imgRepair from '@/assets/images/dien_lanh.jpg';
 import suaBinhNongLanh from '@/assets/images/dienNuoc/sua_binh_nong_lanh.jpg';
+import { trackingCallNow } from '@/src/service/tracking';
 
 export default function SuaBinhNongLanh() {
 
@@ -50,7 +53,7 @@ export default function SuaBinhNongLanh() {
       <p>Nếu bạn muốn bảo dưỡng bình nóng lạnh để tránh sự cố trong tương lai, bạn có thể thảo luận với thợ sửa chữa về việc lên kế hoạch bảo dưỡng định kỳ.</p>
       <p>Nhớ rằng quy trình này có thể thay đổi tùy theo tình trạng cụ thể của bình nóng lạnh và từng đơn vị sửa chữa. Để đảm bảo rằng công việc được thực hiện chính xác và hiệu quả, luôn luôn chọn các đơn vị sửa chữa uy tín và có kinh nghiệm.</p>
 
-      <p>Liên hệ ngay với <span>Doãn Anh</span> qua hotline <span><a href="tel:0964701333">0964 701 333</a></span> để đặt lịch hẹn sửa chữa máy lọc nước tại Hà Nội ngay hôm nay. Rất hân hạnh được phục vụ quý khách.</p>
+      <p>Liên hệ ngay với <span>Doãn Anh</span> qua hotline <span><a href="tel:0964701333" onClick={trackingCallNow}>0964 701 333</a></span> để đặt lịch hẹn sửa chữa máy lọc nước tại Hà Nội ngay hôm nay. Rất hân hạnh được phục vụ quý khách.</p>
     </div>
   )
 }
