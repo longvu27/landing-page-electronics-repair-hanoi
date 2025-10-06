@@ -91,19 +91,6 @@ export default function HomePage() {
 
   return (
     <div className={s.wrapper}>
-      <div className={s.hidden}>
-        <h1 className={s.titleH1}>Sửa chữa điện nước tại Hà Nội 24/7 - Dịch vụ uy tín chuyên nghiệp</h1>
-        <div className={s.service}>
-          <h2>Dịch vụ của chúng tôi tại Hà Nội</h2>
-          <ul>
-            <li><h3>Dịch Vụ Điện Nước: sửa chữa máy bơm, máy lọc nước</h3></li>
-            <li><h3>Dịch Vụ Điện Lạnh: sửa Điều Hoà Tại Nhà Hà Nội</h3></li>
-            <li><h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Hà Nội</h4></li>
-            <li><h5>Sửa chữa Tủ lạnh, máy giặt tại Hà Nội</h5></li>
-            <li><h6>Tư vấn miễn phí, báo giá nhanh chóng </h6></li>
-          </ul>
-        </div>
-      </div>
       <div className={s.aboutMe}>
         <div className={s.head}>
           Về chúng tôi
@@ -210,6 +197,19 @@ export default function HomePage() {
           </Link>
         ))}
       </div> */}
+      <div className={s.hidden}>
+        <h1 className={s.titleH2}>Sửa chữa điện nước tại Hà Nội - Dịch vụ uy tín chuyên nghiệp</h1>
+        <div className={s.service}>
+          <h2 className={s.titleH3} style={{marginTop: '20px'}}>Dịch vụ của chúng tôi tại Hà Nội</h2>
+          <ul>
+            <li><h3>Dịch Vụ Điện Nước: sửa chữa máy bơm, máy lọc nước</h3></li>
+            <li><h3>Dịch Vụ Điện Lạnh: sửa Điều Hoà Tại Nhà Hà Nội</h3></li>
+            <li><h4>Sửa chữa Máy lạnh, bảo trì máy lạnh tại Hà Nội</h4></li>
+            <li><h5>Sửa chữa Tủ lạnh, máy giặt tại Hà Nội</h5></li>
+            <li><h6>Tư vấn miễn phí, báo giá nhanh chóng </h6></li>
+          </ul>
+        </div>
+      </div>
 
       <div>
         <p>
