@@ -122,7 +122,7 @@ export default function HomePage() {
 
       <ul>
         <li>
-          <p><span>sữa chữa điện chập cháy:</span> thi công lắp đặt điện dò tìm đường nước....</p>
+          <p><span>Sữa chữa điện chập cháy:</span> thi công lắp đặt điện dò tìm đường nước....</p>
         </li>
         <li><p><span>Sửa chữa thiết bị điện nước khác như:</span> tivi, lò vi sóng, quạt điện...</p></li>
         <li>
