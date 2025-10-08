@@ -1,29 +1,20 @@
 'use client'
 import Image from 'next/image';
 import s from './homePageStyle.module.scss';
-import imgRepair from '@/assets/images/dien_lanh.jpg';
 import Link from 'next/link';
-import suaDieuHoa from '@/assets/images/home/sua_dieu_hoa.png';
 import sua_binh_nong_lanh from '@/assets/images/home/sua_binh_nong_lanh.jpg';
 import suaMayGiat from '@/assets/images/home/sua_may_giat.png';
 import suaMayLocNuoc from '@/assets/images/home/sua_may_loc_nuoc.png';
 import img_card_ve_sinh_may_giat from '@/assets/images/dienNuoc/ve_sinh_may_giat.jpeg';
 import img_card_sua_may_loc_nuoc from '@/assets/images/dienNuoc/sua_may_loc_nuoc.jpg';
 import img_card_sua_binh_nong_lanh from '@/assets/images/dienNuoc/sua_binh_nong_lanh.jpg';
-import suaChuaDienNuoc from '@/assets/images/dienNuoc/sua_chua_dien_nuoc.jpg';
+import suaChuaDienNuoc from '@/assets/images/dienNuoc/sua_chua_dien_nuoc_a_z.jpg';
 import suaDuongOngNuoc from '@/assets/images/dienNuoc/sua_duong_ong_nuoc.jpg';
 import suaMayBomNuoc from '@/assets/images/dienNuoc/sua_may_bom_nuoc.jpg';
+import sua_chua_dien from '@/assets/images/dienNuoc/sua_chua_dien.jpg';
+import sua_dien_hn from '@/assets/images/dienNuoc/sua_dien_hn.png';
+import sua_dien from '@/assets/images/dienNuoc/sua_dien.jpg';
 
-import img_card_lap_dat_dieu_hoa from '@/assets/images/dienLanh/lap_dat_dieu_hoa.jpg';
-import img_card_sua_chua_tu_lanh from '@/assets/images/dienLanh/sua_chua_tu_lanh.jpg';
-import img_card_ve_sinh_dieu_hoa from '@/assets/images/dienLanh/ve_sinh_dieu_hoa.jpg';
-
-import img_binh_nong_lanh from '@/assets/images/home/binh_nong_lanh.jpg';
-import img_dieu_hoa from '@/assets/images/home/dieu_hoa.webp';
-import img_may_giat from '@/assets/images/home/may_giat.webp';
-import img_may_loc_nuoc from '@/assets/images/home/may_loc_nuoc.webp';
-import img_may_phat_dien from '@/assets/images/home/may_phat_dien.jpg';
-import img_tu_lanh from '@/assets/images/home/tu_lanh.webp';
 import about_us from '@/assets/images/home/about_us.png';
 import { trackingCallNow } from '@/src/service/tracking';
 
@@ -59,33 +50,6 @@ export default function HomePage() {
       title: 'Sửa Chữa Vỡ Đường Ống Nước',
       img: suaDuongOngNuoc,
       link: '/dien-nuoc/sua-duong-ong-nuoc',
-    },
-  ]
-
-  const dataProduct = [
-    {
-      title: 'Bình nóng lạnh',
-      img: img_binh_nong_lanh,
-    },
-    {
-      title: 'Điều hoà',
-      img: img_dieu_hoa,
-    },
-    {
-      title: 'Máy giặt',
-      img: img_may_giat,
-    },
-    {
-      title: 'Máy lọc nước',
-      img: img_may_loc_nuoc,
-    },
-    {
-      title: 'Tủ lạnh',
-      img: img_tu_lanh,
-    },
-    {
-      title: 'Máy phát điện',
-      img: img_may_phat_dien,
     },
   ]
 
@@ -158,7 +122,7 @@ export default function HomePage() {
 
       <ul>
         <li>
-          <p><span>Sửa chữa máy giặt:</span> từ lỗi không vắt, không xả nước, đến các lỗi về động cơ.</p>
+          <p><span>sữa chữa điện chập cháy:</span> thi công lắp đặt điện dò tìm đường nước....</p>
         </li>
         <li><p><span>Sửa chữa thiết bị điện nước khác như:</span> tivi, lò vi sóng, quạt điện...</p></li>
         <li>
@@ -183,6 +147,18 @@ export default function HomePage() {
           <p><span>Chất lượng dịch vụ vượt trội:</span> Chúng tôi luôn nỗ lực để mang lại dịch vụ sửa chữa tốt nhất, đáp ứng mọi nhu cầu của khách hàng.</p>
         </li>
       </ul>
+
+      <div className={s.listImg}>
+        <div className={s.img}>
+          <Image src={sua_chua_dien} alt='sửa chữa điện tại hà nội' />
+        </div>
+        <div className={s.img}>
+          <Image src={sua_dien} alt='sửa chữa điện nước' />
+        </div>
+        <div className={s.img}>
+          <Image src={sua_dien_hn} alt='sửa chữa điện nước hà nội' />
+        </div>
+      </div>
 
       {/* <div className={s.titleH1} style={{ margin: '20px auto' }}>Các sản phẩm của chúng tôi</div>
       <p>Chúng tôi luôn có sẵn nhiều mẫu mã đa dạng, hàng mới, hàng thanh lý giá rẻ – cập nhật thường xuyên. Hãy liên hệ trực tiếp để được tư vấn mẫu mã và giá cụ thể phù hợp với nhu cầu của bạn.</p>
