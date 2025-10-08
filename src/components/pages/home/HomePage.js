@@ -133,7 +133,7 @@ export default function HomePage() {
 
         <p>Giá cả phải chăng, bảo hành dài hạn: Với mức giá hợp lý, chúng tôi cam kết không phát sinh thêm chi phí, đồng thời bảo hành dài hạn cho mọi dịch vụ.</p>
 
-        <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333" onClick={trackingCallNow}>0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
+        {/* <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333" onClick={trackingCallNow}>0964 701 333</a></span> hoặc <span><a onClick={trackingCallNow} href="tel:0866885445">0866 885 445</a></span> để được hỗ trợ tốt nhất.</p> */}
       </div>
 
       <h2 className={s.titleH2}>Dịch vụ Điện Nước Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</h2>
@@ -200,7 +200,7 @@ export default function HomePage() {
       <div className={s.hidden}>
         <h1 className={s.titleH2}>Sửa chữa điện nước tại Hà Nội - Dịch vụ uy tín chuyên nghiệp</h1>
         <div className={s.service}>
-          <h2 className={s.titleH3} style={{marginTop: '20px'}}>Dịch vụ của chúng tôi tại Hà Nội</h2>
+          <h2 className={s.titleH3} style={{ marginTop: '20px' }}>Dịch vụ của chúng tôi tại Hà Nội</h2>
           <ul>
             <li><h3>Dịch Vụ Điện Nước: sửa chữa máy bơm, máy lọc nước</h3></li>
             <li><h3>Dịch Vụ Điện Lạnh: sửa Điều Hoà Tại Nhà Hà Nội</h3></li>
@@ -220,7 +220,7 @@ export default function HomePage() {
           {' '}với giá tốt nhất.
         </p>
       </div>
-      <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333" onClick={trackingCallNow}>0964 701 333</a></span> để được hỗ trợ tốt nhất.</p>
+      <p>Liên hệ ngay với chúng tôi qua số điện thoại <span><a href="tel:0964701333" onClick={trackingCallNow}>0964 701 333</a></span> hoặc <span><a onClick={trackingCallNow} href="tel:0866885445">0866 885 445</a></span> để được hỗ trợ tốt nhất.</p>
     </div>
   );
 }
