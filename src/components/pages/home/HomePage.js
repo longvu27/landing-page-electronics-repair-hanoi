@@ -118,7 +118,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <h3 className={s.titleH3}>Dịch vụ sửa chữa điện nước của chúng tôi bao gồm:</h3>
+      <h3 className={s.titleH2}>Dịch vụ sửa chữa điện nước của chúng tôi bao gồm:</h3>
 
       <ul>
         <li>
