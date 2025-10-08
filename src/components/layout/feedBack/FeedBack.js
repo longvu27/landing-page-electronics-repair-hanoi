@@ -5,6 +5,9 @@ import img_person_joined_3 from '@/assets/images/home/img_person_joined_3.jpg';
 import img_person_joined_4 from '@/assets/images/home/img_person_joined_4.jpg';
 import img_person_joined_5 from '@/assets/images/home/img_person_joined_5.jpg';
 import img_person_joined_6 from '@/assets/images/home/img_person_joined_6.jpg';
+import avt_1 from '@/assets/images/home/avt_1.webp';
+import avt_2 from '@/assets/images/home/avt_2.webp';
+import avt_3 from '@/assets/images/home/avt_3.jpg';
 import Image from 'next/image';
 
 export default function FeedBack() {
@@ -12,19 +15,19 @@ export default function FeedBack() {
     {
       content: 'Thợ đến đúng giờ, làm việc chuyên nghiệp và nhiệt tình. Sau khi sửa xong, thiết bị hoạt động ổn định, giá cả hợp lý.',
       name: 'Phạm Thu Thảo',
-      img: img_person_joined_2,
+      img: avt_1,
       location: 'Phường Nhật Tân, Quận Tây Hồ',
     },
     {
       content: 'Máy giặt nhà mình bị kêu to, thợ đến kiểm tra rất nhanh, sửa gọn gàng. Sau khi sửa chạy êm như mới. Kỹ thuật viên không chỉ sửa mà còn hướng dẫn cách vệ sinh lồng giặt định kỳ, giúp máy bền hơn.',
-      name: 'Trần Thị Hồng Nhung',
-      img: img_person_joined_4,
+      name: 'Lê Văn Khánh',
+      img: avt_2,
       location: 'Phường Bách Khoa, Quận Hai Bà Trưng',
     },
     {
       content: 'Máy lọc nước bị yếu, gọi thợ đến trong ngày, kiểm tra và xử lý gọn gàng, nước chảy mạnh và trong veo như ban đầu.',
-      name: 'Lê Văn Khánh',
-      img: img_person_joined_3,
+      name: 'Trần Thị Hồng Nhung',
+      img: avt_3,
       location: 'Phố Đinh Tiên Hoàng, quận Hoàn Kiếm',
     },
     {
