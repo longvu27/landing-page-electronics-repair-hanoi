@@ -12,7 +12,7 @@ const roboto = Roboto({
 
 export const metadata = {
   metadataBase: new URL(`https://dichvudiennuochanoi247.com/`),
-  title: "Sửa chữa điện nước Hà Nội | Dịch vụ điện nước uy tín giá tốt",
+  title: "Sửa chữa điện nước Hà Nội uy tín giá tốt",
   description: "Sửa chữa điện nước tại Hà Nội uy tín, giá cả hợp lý. Thợ tay nghề cao khắc phục sự cố triệt để. Cam kết có mặt nhanh, bảo hành dịch vụ dài hạn. Liên hệ ngay!",
   keywords: "sửa chữa điện nước, sửa tivi, máy lọc nước, máy bơm, máy giặt, bình nóng lạnh",
   icons: {
@@ -35,14 +35,14 @@ export const metadata = {
     apple: "https://dichvudiennuochanoi247.com/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Sửa chữa điện nước Hà Nội | Dịch vụ điện nước uy tín giá tốt",
+    title: "Sửa chữa điện nước Hà Nội uy tín giá tốt",
     description: "Sửa chữa điện nước tại Hà Nội uy tín, giá cả hợp lý. Thợ tay nghề cao khắc phục sự cố triệt để. Cam kết có mặt nhanh, bảo hành dịch vụ dài hạn. Liên hệ ngay!",
     images: [
       {
         url: thumbnail.src,
         width: 1200,
         height: 630,
-        alt: "Sửa chữa điện nước Hà Nội | Dịch vụ điện nước uy tín giá tốt",
+        alt: "Sửa chữa điện nước Hà Nội uy tín giá tốt",
       },
     ],
   },
@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Sửa chữa điện nước Hà Nội | Dịch vụ điện nước uy tín giá tốt",
+              "name": "Sửa chữa điện nước Hà Nội uy tín giá tốt",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Hà Nội",
