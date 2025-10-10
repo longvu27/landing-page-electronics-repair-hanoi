@@ -60,7 +60,7 @@ export default function HomePage() {
 
   return (
     <div className={s.wrapper}>
-      <div className={s.aboutMe}>
+      {/* <div className={s.aboutMe}>
         <div className={s.head}>
           Về chúng tôi
           <span>&nbsp;</span>
@@ -74,9 +74,13 @@ export default function HomePage() {
             </div>
           </div>
           <div className={s.img}>
-            <Image src={about_us} alt='about_us' style={{ maxWidth: '250px', height: 'fit-content' }} />
+           
           </div>
         </div>
+      </div> */}
+
+      <div className={s.singleImg}>
+        <Image src={about_us} alt='about_us' style={{ maxWidth: '250px', height: 'fit-content' }} />
       </div>
 
       <div className={s.content}>
