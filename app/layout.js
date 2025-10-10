@@ -16,7 +16,23 @@ export const metadata = {
   description: "Sửa chữa điện nước tại Hà Nội uy tín, giá cả hợp lý. Thợ tay nghề cao khắc phục sự cố triệt để. Cam kết có mặt nhanh, bảo hành dịch vụ dài hạn. Liên hệ ngay!",
   keywords: "sửa chữa điện nước, sửa tivi, máy lọc nước, máy bơm, máy giặt, bình nóng lạnh",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      {
+        url: "https://dichvudiennuochanoi247.com/favicon.ico",
+        type: "image/x-icon",
+      },
+      {
+        url: "https://dichvudiennuochanoi247.com/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "https://dichvudiennuochanoi247.com/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+    ],
+    apple: "https://dichvudiennuochanoi247.com/apple-touch-icon.png",
   },
   openGraph: {
     title: "Sửa chữa điện nước Hà Nội | Dịch vụ điện nước uy tín giá tốt",
