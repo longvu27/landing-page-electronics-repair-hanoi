@@ -231,6 +231,20 @@
   // overflow: hidden;
 }
 
+.singleImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+
+  img {
+    width: 100%;
+    max-width: 600px;
+    height: fit-content;
+    border-radius: 6px;
+  }
+}
+
 @media (max-width: 768px) {
   .wrapper {
     ul {
@@ -301,6 +315,11 @@
     .title {
       text-align: center;
       font-size: 14px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
     }
 
     .image {
