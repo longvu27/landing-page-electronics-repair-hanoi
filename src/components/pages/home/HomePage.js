@@ -13,7 +13,7 @@ import suaDuongOngNuoc from '@/assets/images/dienNuoc/sua_duong_ong_nuoc.jpg';
 import suaMayBomNuoc from '@/assets/images/dienNuoc/sua_may_bom_nuoc.jpg';
 import sua_chua_dien from '@/assets/images/dienNuoc/sua_chua_dien.jpg';
 import sua_dien_hn from '@/assets/images/dienNuoc/sua_dien_hn.png';
-import sua_dien from '@/assets/images/dienNuoc/sua_dien.jpg';
+import sua_dien from '@/assets/images/dienNuoc/sua_dien.png';
 import sua_dien_ha_noi_1 from '@/assets/images/home/sua_dien_ha_noi_1.jpg';
 import sua_dien_nuoc_ha_noi_1 from '@/assets/images/home/sua_dien_nuoc_ha_noi_1.jpg';
 import sua_dien_nuoc_ha_noi_2 from '@/assets/images/home/sua_dien_nuoc_ha_noi_2.jpg';
@@ -86,7 +86,7 @@ export default function HomePage() {
           style={{ maxWidth: '250px', height: 'fit-content' }}
           priority
           fetchPriority="high"
-          placeholder="blur"
+          // placeholder="blur"
           quality={80}
         />
       </div>
