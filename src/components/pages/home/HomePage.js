@@ -158,7 +158,7 @@ export default function HomePage() {
 
 
       <div className={s.singleImg}>
-        <Image src={sua_dien_ha_noi_1} alt='sua dien nuoc ha noi' />
+        <Image width={400} height={500} src={sua_dien_ha_noi_1} alt='sua dien nuoc ha noi' />
       </div>
 
       <p className={s.titleH2}>
@@ -175,7 +175,7 @@ export default function HomePage() {
       </p>
 
       <div className={s.singleImg}>
-        <Image src={sua_dien_nuoc_ha_noi_1} alt='sua dien nuoc ha noi' />
+        <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_1} alt='sua dien nuoc ha noi' />
       </div>
 
       <h4 className={s.titleH2}>Những ưu điểm khi lựa chọn thợ sửa điện nước tại nhà của chúng tôi:</h4>
@@ -191,7 +191,7 @@ export default function HomePage() {
       </ul>
 
       <div className={s.singleImg}>
-        <Image src={sua_dien_nuoc_ha_noi_2} alt='sua dien nuoc ha noi' />
+        <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_2} alt='sua dien nuoc ha noi' />
       </div>
 
       <h5 className={s.titleH2}>Quy trình sửa chữa điện nước chuyên nghiệp</h5>
@@ -207,7 +207,7 @@ export default function HomePage() {
       </ul>
 
       <div className={s.singleImg}>
-        <Image src={sua_dien_nuoc_tai_ha_noi} alt='sua dien nuoc ha noi' />
+        <Image width={400} height={500} src={sua_dien_nuoc_tai_ha_noi} alt='sua dien nuoc ha noi' />
       </div>
 
       <h6 className={s.titleH2}>Chi phí sửa điện nước giá rẻ, dễ tiếp cận</h6>
@@ -215,7 +215,7 @@ export default function HomePage() {
       <p>Để đảm bảo tính chính xác, <span>Doãn Anh</span> sẽ kiểm tra chi tiết miễn phí, xác định sự cố và hướng khắc phục rồi mới thông báo giá chi tiết cho khách hàng. Trường hợp bạn đã nắm rõ sự cố đang gặp phải thì có thể thông báo với chúng tôi qua hotline để được báo giá sơ bộ ban đầu.</p>
       <p>Chúng tôi luôn đảm bảo cung cấp dịch vụ giá tốt, chất lượng cao, minh bạch về chi phí và bảo hành lâu dài. Vì vậy mà các bạn hãy hoàn toàn yên tâm tin tưởng vào chúng tôi.</p>
       <div className={s.singleImg}>
-        <Image src={sua_dien_nuoc_ha_noi_3} alt='sua dien nuoc ha noi' />
+        <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_3} alt='sua dien nuoc ha noi' />
       </div>
       <p>Với phương châm Nhanh chóng - An toàn - Tin cậy, Điện Nước <span>Doãn Anh</span> chính là lựa chọn hàng đầu dành cho bạn khi hệ thống điện nước không may gặp sự cố. Hãy liên hệ với dịch vụ sửa chữa điện nước tại Hà Nội của chúng tôi để được tư vấn và phục vụ chu đáo, đảm bảo hệ thống điện nước nhà bạn luôn hoạt động bình thường, ổn định, an toàn, tiết kiệm.</p>
       <div>
