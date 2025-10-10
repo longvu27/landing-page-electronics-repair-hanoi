@@ -80,7 +80,15 @@ export default function HomePage() {
       </div> */}
 
       <div className={s.singleImg}>
-        <Image src={about_us} alt='about_us' style={{ maxWidth: '250px', height: 'fit-content' }} />
+        <Image
+          src={about_us}
+          alt='about_us'
+          style={{ maxWidth: '250px', height: 'fit-content' }}
+          priority
+          fetchPriority="high"
+          placeholder="blur"
+          quality={80}
+        />
       </div>
 
       <div className={s.content}>
