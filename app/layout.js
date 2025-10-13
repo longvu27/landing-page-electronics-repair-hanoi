@@ -12,8 +12,8 @@ const roboto = Roboto({
 
 export const metadata = {
   metadataBase: new URL(`https://dichvudiennuochanoi247.com/`),
-  title: "Sửa chữa điện nước Hà Nội chuyên nghiệp uy tín giá tốt",
-  description: "Sửa chữa điện nước tại Hà Nội uy tín, giá cả hợp lý. Thợ tay nghề cao khắc phục sự cố triệt để. Cam kết có mặt nhanh, bảo hành dịch vụ dài hạn. Liên hệ ngay!",
+  title: "Sửa điện nước tại nhà Hà Nội — Thợ chuyên nghiệp, uy tín, có mặt ngay",
+  description: "Sửa chữa điện nước tại nhà Hà Nội uy tín. Thợ tay nghề cao, có mặt trong 30 phút, giá minh bạch, bảo hành dài hạn. Gọi ngay 0964701333!",
   keywords: "sửa chữa điện nước, sửa tivi, máy lọc nước, máy bơm, máy giặt, bình nóng lạnh",
   icons: {
     icon: [
@@ -35,14 +35,14 @@ export const metadata = {
     apple: "https://dichvudiennuochanoi247.com/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Sửa chữa điện nước Hà Nội chuyên nghiệp uy tín giá tốt",
-    description: "Sửa chữa điện nước tại Hà Nội uy tín, giá cả hợp lý. Thợ tay nghề cao khắc phục sự cố triệt để. Cam kết có mặt nhanh, bảo hành dịch vụ dài hạn. Liên hệ ngay!",
+    title: "Sửa điện nước tại nhà Hà Nội — Thợ chuyên nghiệp, uy tín, có mặt ngay",
+    description: "Sửa chữa điện nước tại nhà Hà Nội uy tín. Thợ tay nghề cao, có mặt trong 30 phút, giá minh bạch, bảo hành dài hạn. Gọi ngay 0964701333!",
     images: [
       {
         url: thumbnail.src,
         width: 1200,
         height: 630,
-        alt: "Sửa chữa điện nước Hà Nội chuyên nghiệp uy tín giá tốt",
+        alt: "Sửa điện nước tại nhà Hà Nội — Thợ chuyên nghiệp, uy tín, có mặt ngay",
       },
     ],
   },
@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Sửa chữa điện nước Hà Nội chuyên nghiệp uy tín giá tốt",
+              "name": "Sửa điện nước tại nhà Hà Nội — Thợ chuyên nghiệp, uy tín, có mặt ngay",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Hà Nội",
@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
               },
               "telephone": "+84964701333",
               "openingHours": "Mo-Su 08:00-22:00",
-              "description": "Sửa chữa điện nước tại Hà Nội uy tín, giá cả hợp lý. Thợ tay nghề cao khắc phục sự cố triệt để. Cam kết có mặt nhanh, bảo hành dịch vụ dài hạn. Liên hệ ngay!",
+              "description": "Sửa chữa điện nước tại nhà Hà Nội uy tín. Thợ tay nghề cao, có mặt trong 30 phút, giá minh bạch, bảo hành dài hạn. Gọi ngay 0964701333!",
             })
           }}
         />
