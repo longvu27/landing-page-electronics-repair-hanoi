@@ -12,7 +12,7 @@ const roboto = Roboto({
 
 export const metadata = {
   metadataBase: new URL(`https://dichvudiennuochanoi247.com/`),
-  title: "Sửa điện nước tại nhà Hà Nội — Có mặt ngay, giá hợp lý",
+  title: "Sửa điện nước tại nhà Hà Nội — Thợ chuyên nghiệp, uy tín, có mặt ngay",
   description: "Sửa chữa điện nước tại nhà Hà Nội uy tín. Thợ tay nghề cao, có mặt trong 30 phút, giá minh bạch, bảo hành dài hạn. Gọi ngay 0964701333!",
   keywords: "sửa chữa điện nước, sửa tivi, máy lọc nước, máy bơm, máy giặt, bình nóng lạnh",
   icons: {
@@ -35,14 +35,14 @@ export const metadata = {
     apple: "https://dichvudiennuochanoi247.com/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Sửa điện nước tại nhà Hà Nội — Có mặt ngay, giá hợp lý",
+    title: "Sửa điện nước tại nhà Hà Nội — Thợ chuyên nghiệp, uy tín, có mặt ngay",
     description: "Sửa chữa điện nước tại nhà Hà Nội uy tín. Thợ tay nghề cao, có mặt trong 30 phút, giá minh bạch, bảo hành dài hạn. Gọi ngay 0964701333!",
     images: [
       {
         url: thumbnail.src,
         width: 1200,
         height: 630,
-        alt: "Sửa điện nước tại nhà Hà Nội — Có mặt ngay, giá hợp lý",
+        alt: "Sửa điện nước tại nhà Hà Nội — Thợ chuyên nghiệp, uy tín, có mặt ngay",
       },
     ],
   },
@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Sửa điện nước tại nhà Hà Nội — Có mặt ngay, giá hợp lý",
+              "name": "Sửa điện nước tại nhà Hà Nội — Thợ chuyên nghiệp, uy tín, có mặt ngay",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Hà Nội",
