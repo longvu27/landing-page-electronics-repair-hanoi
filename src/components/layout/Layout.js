@@ -12,7 +12,7 @@ export default function Layout({ children }) {
 
   return (
     <div className={s.wrapper}>
-      {/* <ConnectZalo /> */}
+      <ConnectZalo />
       <CallNow />
       <Header />
       <div className={`width-container ${s.main}`}>
