@@ -4,11 +4,15 @@ import Image from 'next/image';
 import s from './dienNuocStyle.module.scss';
 import imgRepair from '@/assets/images/dien_lanh.jpg';
 import { trackingCallNow } from '@/src/service/tracking';
+import sua_dien_nuoc_ha_noi_3 from '@/assets/images/home/sua_dien_nuoc_ha_noi_3.jpg';
 
 export default function DienNuoc() {
 
   return (
     <div className={s.wrapper}>
+      <div className={s.singleImg}>
+        <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_3} alt='sua dien nuoc ha noi' />
+      </div>
       <h1 className={s.titleH1}>Dịch Vụ Sửa Chữa Điện Nước Tại Hà Nội - Nhanh Chóng, Giá Rẻ</h1>
 
       <p>Chuyên nhận sửa chữa điện nước dân dụng tại Hà Nội: thay dây điện, sửa ống nước rò rỉ, lắp đặt thiết bị điện nước mới, xử lý sự cố điện nước an toàn, nhanh chóng.</p>
