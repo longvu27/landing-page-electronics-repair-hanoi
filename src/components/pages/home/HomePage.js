@@ -136,34 +136,18 @@ export default function HomePage() {
       <h3 className={s.titleH2}>Dịch vụ sửa chữa điện nước của chúng tôi bao gồm:</h3>
 
       <ul>
-        <li>
-          <p><span>Sữa chữa điện chập cháy:</span> thi công lắp đặt điện dò tìm đường nước....</p>
-        </li>
-        <li><p><span>Sửa chữa thiết bị điện nước khác như:</span> tivi, lò vi sóng, quạt điện...</p></li>
-        <li>
-          <p><span>Sửa chữa tận nhà:</span> Tiết kiệm thời gian, không phải mang thiết bị đi xa.</p>
-        </li>
-        <li>
-          <p><span>Phục vụ nhanh chóng:</span> Chúng tôi cam kết có mặt tại nhà bạn chỉ trong vòng 30 phút sau khi nhận được yêu cầu.</p>
-        </li>
-        <li>
-          <p><span>Giá cả hợp lý:</span> Chúng tôi cung cấp dịch vụ sửa chữa chất lượng với giá cả cạnh tranh, không phát sinh chi phí bất ngờ.</p>
-        </li>
-        <li><p><span>Bảo hành dài hạn:</span> Mọi dịch vụ sửa chữa đều được bảo hành lên đến 12 tháng, giúp bạn yên tâm sử dụng.</p></li>
-        <li>
-          <p><span>Cam kết của chúng tôi: </span>
-            <br />
-            An toàn và chất lượng: Mọi công việc sửa chữa đều được thực hiện theo đúng quy trình kỹ thuật, đảm bảo an toàn cho thiết bị và người sử dụng.</p>
-        </li>
-        <li>
-          <p><span>Tiết kiệm chi phí:</span> Chúng tôi luôn đưa ra giải pháp sửa chữa tối ưu, giúp bạn tiết kiệm chi phí sửa chữa, thay vì phải thay mới các linh kiện.</p>
-        </li>
-        <li>
-          <p><span>Chất lượng dịch vụ vượt trội:</span> Chúng tôi luôn nỗ lực để mang lại dịch vụ sửa chữa tốt nhất, đáp ứng mọi nhu cầu của khách hàng.</p>
-        </li>
+        <li><p><span>Sữa chữa điện chập cháy:</span> thi công lắp đặt điện dò tìm đường nước....</p></li>
+        <li><p><span>Sửa chữa thiết bị điện nước như:</span> máy bơm, máy lọc nước, bình nóng lạnh...</p></li>
+        <li><p><span>Sửa chữa tận nhà:</span> Tiết kiệm thời gian, không phải mang thiết bị đi xa.</p></li>
+        <li>Khắc phục tình trạng chập cháy điện, mất điện cục bộ, nhảy aptomat,...</li>
+        <li>Sửa chữa tủ điện, đường dây điện, đồng hồ điện</li>
+        <li>Lắp đặt, sửa chữa và bảo dưỡng máy bơm nước, bình nóng lạnh</li>
+        <li>Thay thế đường ống nước bị hỏng, bục vỡ, thay thế vòi nước, van nước,...</li>
+        <li>Khắc phục tình trạng rò rỉ nước, nước yếu, mất nước</li>
+        <li>Lắp đặt thiết bị nhà tắm, nhà vệ sinh, bồn rửa bát, máy giặt,...</li>
+        <li>Thi công hệ thống điện nước âm tường, điện nước nổi</li>
+        <li>Bảo dưỡng hệ thống điện nước định kỳ,…</li>
       </ul>
-
-
 
       <div className={s.singleImg}>
         <Image width={400} height={500} src={sua_dien_ha_noi_1} alt='sua dien nuoc ha noi' />
@@ -196,6 +180,11 @@ export default function HomePage() {
         <li>Luôn đặt chất lượng dịch vụ và lợi ích khách hàng lên hàng đầu, thợ sửa chữa chu đáo, tận tâm trong công việc.</li>
         <li>Báo giá dịch vụ sửa điện nước tại nhà công khai, minh bạch với chi phí hợp lý và cạnh tranh nhất thị trường.</li>
         <li>Bảo hành uy tín và lâu dài, sẵn sàng hỗ trợ khách hàng 24/24</li>
+        <li>
+          <p><span>Cam kết của chúng tôi: </span>
+            <br />
+            An toàn và chất lượng: Mọi công việc sửa chữa đều được thực hiện theo đúng quy trình kỹ thuật, đảm bảo an toàn cho thiết bị và người sử dụng.</p>
+        </li>
       </ul>
 
       <div className={s.singleImg}>
