@@ -136,17 +136,17 @@ export default function HomePage() {
       <h3 className={s.titleH2}>Dịch vụ sửa chữa điện nước của chúng tôi bao gồm:</h3>
 
       <ul>
-        <li><p><span>Sữa chữa điện chập cháy:</span> thi công lắp đặt điện dò tìm đường nước....</p></li>
-        <li><p><span>Sửa chữa thiết bị điện nước như:</span> máy bơm, máy lọc nước, bình nóng lạnh...</p></li>
-        <li><p><span>Sửa chữa tận nhà:</span> Tiết kiệm thời gian, không phải mang thiết bị đi xa.</p></li>
-        <li>Khắc phục tình trạng chập cháy điện, mất điện cục bộ, nhảy aptomat,...</li>
+        <li>Sửa chữa thiết bị điện nước như: máy bơm, máy lọc nước, bình nóng lạnh...</li>
+        <li>Sữa chữa điện chập cháy: thi công lắp đặt điện dò tìm đường nước....</li>
+        <li>Khắc phục tình trạng chập cháy điện, mất điện cục bộ, nhảy aptomat...</li>
         <li>Sửa chữa tủ điện, đường dây điện, đồng hồ điện</li>
         <li>Lắp đặt, sửa chữa và bảo dưỡng máy bơm nước, bình nóng lạnh</li>
-        <li>Thay thế đường ống nước bị hỏng, bục vỡ, thay thế vòi nước, van nước,...</li>
+        <li>Thay thế đường ống nước bị hỏng, bục vỡ, thay thế vòi nước, van nước...</li>
         <li>Khắc phục tình trạng rò rỉ nước, nước yếu, mất nước</li>
-        <li>Lắp đặt thiết bị nhà tắm, nhà vệ sinh, bồn rửa bát, máy giặt,...</li>
+        <li>Lắp đặt thiết bị nhà tắm, nhà vệ sinh, bồn rửa bát, máy giặt...</li>
         <li>Thi công hệ thống điện nước âm tường, điện nước nổi</li>
-        <li>Bảo dưỡng hệ thống điện nước định kỳ,…</li>
+        <li>Bảo dưỡng hệ thống điện nước định kỳ...</li>
+        <li>Sửa chữa tận nhà: Tiết kiệm thời gian, không phải mang thiết bị đi xa.</li>
       </ul>
 
       <div className={s.singleImg}>
