@@ -75,6 +75,8 @@ export default function RootLayout({ children }) {
         </Script>
       </head>
       <body className={roboto.variable}>
+        <a href="https://www.facebook.com/anh.nguyen.173196" width={0} height={0}/>
+        <a href="https://diennuocdienlanhthanhhoa.com/" width={0} height={0}/>
         <Layout>
           {children}
         </Layout>
