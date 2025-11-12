@@ -22,6 +22,9 @@ import sua_dien_nuoc_tai_ha_noi from '@/assets/images/home/sua_dien_nuoc_tai_ha_
 
 import about_us from '@/assets/images/home/about_us.png';
 import { trackingCallNow } from '@/src/service/tracking';
+import ic_tick from '@/assets/images/icons/ic_tick.svg';
+import ic_point from '@/assets/images/icons/ic_point.svg';
+import ic_x from '@/assets/images/icons/ic_x.svg';
 
 export default function HomePage() {
 
@@ -58,27 +61,26 @@ export default function HomePage() {
     },
   ]
 
+  const service = [
+    ' Sửa chữa điện',
+    ' Sửa chữa nước, ống nước',
+    ' Sửa máy bơm tại nhà',
+    ' Sửa bình tắm, nóng lạnh',
+    ' Sửa bóng đèn, quạt điện',
+    ' Siêu âm rò nước trong tường',
+  ]
+
+  const customer = [
+    ' 15 Phút có mặt xử lý',
+    ' Bảo hành lâu dài',
+    ' Trực tư vấn 24/24',
+    ' Đồ đạc chính hãng, hóa đơn',
+    ' Không chặt chém',
+    ' Báo giá trực tiếp tận nơi',
+    ' Khách không làm nhân viên đi về, không xin tiền'
+  ]
   return (
     <div className={s.wrapper}>
-      {/* <div className={s.aboutMe}>
-        <div className={s.head}>
-          Về chúng tôi
-          <span>&nbsp;</span>
-        </div>
-        <div className={s.body}>
-          <div className={s.text}>
-            Sửa chữa điện nước <span>Doãn Anh</span> là một trong những đơn vị hàng đầu tại khu vực Hà Nội trong lĩnh vực: Sửa chữa điện nước, sửa chữa bình nóng lạnh, sửa chữa máy bơm, sửa chữa máy giặt, vòi sen nước, sửa chữa đường ống nước… Chúng tôi hoạt động 24/7 tại các khu vực nội thành khu vực Hà Nội. Bạn đang bị sự cố về điện và nước trong gia đình, hãy gọi cho chúng tôi để được giải quyết một cách nhanh chóng và hiệu quả nhất !
-            <br />
-            <div>
-              Chúng tôi luôn xem mỗi khách hàng là một ân nhân, phục vụ tận tâm, nhanh chóng và chất lượng.
-            </div>
-          </div>
-          <div className={s.img}>
-           
-          </div>
-        </div>
-      </div> */}
-
       <div className={s.singleImg}>
         <Image
           src={about_us}
@@ -91,10 +93,53 @@ export default function HomePage() {
         />
       </div>
 
+      {/* <h3 className={s.titleH1}>Dịch vụ sửa chữa điện nước của chúng tôi bao gồm:</h3> */}
+      {/* <ul>
+        <li>Sửa chữa thiết bị điện nước như: máy bơm, máy lọc nước, bình nóng lạnh...</li>
+        <li>Sữa chữa điện chập cháy: thi công lắp đặt điện dò tìm đường nước....</li>
+        <li>Khắc phục tình trạng chập cháy điện, mất điện cục bộ, nhảy aptomat...</li>
+        <li>Sửa chữa tủ điện, đường dây điện, đồng hồ điện</li>
+        <li>Lắp đặt, sửa chữa và bảo dưỡng máy bơm nước, bình nóng lạnh</li>
+        <li>Thay thế đường ống nước bị hỏng, bục vỡ, thay thế vòi nước, van nước...</li>
+        <li>Khắc phục tình trạng rò rỉ nước, nước yếu, mất nước</li>
+        <li>Lắp đặt thiết bị nhà tắm, nhà vệ sinh, bồn rửa bát, máy giặt...</li>
+        <li>Thi công hệ thống điện nước âm tường, điện nước nổi</li>
+        <li>Bảo dưỡng hệ thống điện nước định kỳ...</li>
+        <li>Sửa chữa tận nhà: Tiết kiệm thời gian, không phải mang thiết bị đi xa.</li>
+      </ul> */}
+
+      <div className={s.newService}>
+        <div className={s.container}>
+          <div className={s.title}>Dịch vụ của chúng tôi:</div>
+          {service.map((item, index) => (
+            <div key={index} className={s.item}>
+              <Image width={16} height={16} src={ic_tick} alt='icon' />
+              {item}
+            </div>
+          ))}
+        </div>
+        <div className={s.container}>
+          <div className={s.title}>KHÁCH HÀNG CHỌN CHÚNG TÔI VÌ:</div>
+          {customer.map((item, index) => (
+            <div key={index} className={s.item}>
+              <Image width={16} height={16} src={index + 1 === customer.length ? ic_x : ic_point} alt='icon' />
+              {item}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className={s.singleImg}>
+        <Image width={400} height={500} src={sua_dien_ha_noi_1} alt='sua dien nuoc ha noi' />
+      </div>
+
       <div className={s.content}>
-        <h1 className={s.titleH1}>Thợ sửa điện nước tại nhà Hà Nội hỗ trợ nhanh 24/7</h1>
+        <h1 className={s.titleH2}>Thợ sửa điện nước tại nhà Hà Nội hỗ trợ nhanh 24/7</h1>
         <p>Nếu bạn đang gặp sự cố với các thiết bị điện nước tại nhà hoặc văn phòng, đừng ngần ngại liên hệ ngay với chúng tôi. Gọi ngay để được tư vấn và nhận dịch vụ sửa chữa nhanh chóng, uy tín.</p>
 
+        <div className={s.singleImg}>
+          <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_1} alt='sua dien nuoc ha noi' />
+        </div>
         <p>Tại sao lựa chọn dịch vụ sửa chữa điện nước tại <span>Doãn Anh</span>?</p>
         <p>Giải pháp tối ưu cho mọi sự cố điện nước: Với kiến thức chuyên sâu và kinh nghiệm lâu năm, chúng tôi tự tin cung cấp các giải pháp sửa chữa nhanh chóng và hiệu quả nhất cho mọi loại thiết bị điện nước.</p>
 
@@ -133,44 +178,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <h3 className={s.titleH2}>Dịch vụ sửa chữa điện nước của chúng tôi bao gồm:</h3>
-
-      <ul>
-        <li>Sửa chữa thiết bị điện nước như: máy bơm, máy lọc nước, bình nóng lạnh...</li>
-        <li>Sữa chữa điện chập cháy: thi công lắp đặt điện dò tìm đường nước....</li>
-        <li>Khắc phục tình trạng chập cháy điện, mất điện cục bộ, nhảy aptomat...</li>
-        <li>Sửa chữa tủ điện, đường dây điện, đồng hồ điện</li>
-        <li>Lắp đặt, sửa chữa và bảo dưỡng máy bơm nước, bình nóng lạnh</li>
-        <li>Thay thế đường ống nước bị hỏng, bục vỡ, thay thế vòi nước, van nước...</li>
-        <li>Khắc phục tình trạng rò rỉ nước, nước yếu, mất nước</li>
-        <li>Lắp đặt thiết bị nhà tắm, nhà vệ sinh, bồn rửa bát, máy giặt...</li>
-        <li>Thi công hệ thống điện nước âm tường, điện nước nổi</li>
-        <li>Bảo dưỡng hệ thống điện nước định kỳ...</li>
-        <li>Sửa chữa tận nhà: Tiết kiệm thời gian, không phải mang thiết bị đi xa.</li>
-      </ul>
-
-      <div className={s.singleImg}>
-        <Image width={400} height={500} src={sua_dien_ha_noi_1} alt='sua dien nuoc ha noi' />
-      </div>
-
-      <p className={s.titleH2}>
-        Vì sao khách hàng tin tưởng lựa chọn dịch vụ sửa điện nước tại Hà Nội của chúng tôi?
-      </p>
-      <p>
-        Trên địa bàn Hà Nội hiện nay có rất nhiều đơn vị cung cấp dịch vụ sửa điện nước tại nhà. Tuy nhiên không phải đơn vị nào cũng đảm bảo uy tín, chuyên nghiệp. Chọn lựa đơn vị sửa chữa tin cậy, chất lượng là vô cùng quan trọng để đảm bảo hệ thống điện nước nhà bạn được khắc phục đúng sự cố, hoạt động ổn định và an toàn sau khi sửa chữa.
-      </p>
-      <p>
-        Công ty chúng tôi là một trong những đơn vị uy tín nhất trong lĩnh vực sửa chữa điện nước. Hoạt động hơn 10 năm trong nghề, <span>Doãn Anh</span> được khách hàng tin tưởng, đánh giá cao bởi chất lượng dịch vụ tốt cùng thái độ phục vụ chu đáo, tận tâm.
-      </p>
-      <p>
-        Thế mạnh của <span>Doãn Anh</span> là thâm niên hoạt động lâu năm, đã tích lũy được rất nhiều kinh nghiệm sửa chữa, khắc phục các sự cố điện nước từ quy mô nhỏ đến lớn. Cùng với đó là đội ngũ kỹ thuật viên, thợ sửa chữa điện nước lành nghề, được đào tạo bài bản về nghề sửa chữa điện nước, am hiểu sâu hệ thống điện nước hiện nay.
-      </p>
-
-      <div className={s.singleImg}>
-        <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_1} alt='sua dien nuoc ha noi' />
-      </div>
-
-      <h4 className={s.titleH2}>Những ưu điểm khi lựa chọn thợ sửa điện nước tại nhà của chúng tôi:</h4>
+      <h3 className={s.titleH2}>Những ưu điểm khi lựa chọn thợ sửa điện nước tại nhà của chúng tôi:</h3>
       <ul>
         <li>Phục vụ 24/7, có mặt nhanh chóng chỉ sau 15 phút để giúp bạn giải quyết các tình huống khẩn cấp.</li>
         <li>Mạng lưới hoạt động rộng khắp, thợ luôn có mặt ở khắp các quận huyện tại Hà Nội để hỗ trợ bạn nhanh chóng nhất.</li>
@@ -238,6 +246,19 @@ export default function HomePage() {
           </Link>
         ))}
       </div>
+
+      <p className={s.titleH2}>
+        Khách hàng tin tưởng lựa chọn dịch vụ sửa điện nước tại Hà Nội của chúng tôi vì:
+      </p>
+      <p>
+        Trên địa bàn Hà Nội hiện nay có rất nhiều đơn vị cung cấp dịch vụ sửa điện nước tại nhà. Tuy nhiên không phải đơn vị nào cũng đảm bảo uy tín, chuyên nghiệp. Chọn lựa đơn vị sửa chữa tin cậy, chất lượng là vô cùng quan trọng để đảm bảo hệ thống điện nước nhà bạn được khắc phục đúng sự cố, hoạt động ổn định và an toàn sau khi sửa chữa.
+      </p>
+      <p>
+        Công ty chúng tôi là một trong những đơn vị uy tín nhất trong lĩnh vực sửa chữa điện nước. Hoạt động hơn 10 năm trong nghề, <span>Doãn Anh</span> được khách hàng tin tưởng, đánh giá cao bởi chất lượng dịch vụ tốt cùng thái độ phục vụ chu đáo, tận tâm.
+      </p>
+      <p>
+        Thế mạnh của <span>Doãn Anh</span> là thâm niên hoạt động lâu năm, đã tích lũy được rất nhiều kinh nghiệm sửa chữa, khắc phục các sự cố điện nước từ quy mô nhỏ đến lớn. Cùng với đó là đội ngũ kỹ thuật viên, thợ sửa chữa điện nước lành nghề, được đào tạo bài bản về nghề sửa chữa điện nước, am hiểu sâu hệ thống điện nước hiện nay.
+      </p>
     </div>
   );
 }
