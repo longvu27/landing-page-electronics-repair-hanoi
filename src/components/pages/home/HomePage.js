@@ -131,6 +131,7 @@ export default function HomePage() {
 
       <div className={s.singleImg}>
         <Image width={400} height={500} src={sua_dien_ha_noi_1} alt='sua dien nuoc ha noi' />
+        <p>Hình ảnh: Sửa chữa điện tại quận Cầu Giấy</p>
       </div>
 
       <div className={s.content}>
@@ -139,6 +140,7 @@ export default function HomePage() {
 
         <div className={s.singleImg}>
           <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_1} alt='sua dien nuoc ha noi' />
+          <p>Hình ảnh: Thi công điện tại quận Ba Đình</p>
         </div>
         <p>Tại sao lựa chọn dịch vụ sửa chữa điện nước tại <span>Doãn Anh</span>?</p>
         <p>Giải pháp tối ưu cho mọi sự cố điện nước: Với kiến thức chuyên sâu và kinh nghiệm lâu năm, chúng tôi tự tin cung cấp các giải pháp sửa chữa nhanh chóng và hiệu quả nhất cho mọi loại thiết bị điện nước.</p>
@@ -148,16 +150,19 @@ export default function HomePage() {
         <p>Giá cả phải chăng, bảo hành dài hạn: Với mức giá hợp lý, chúng tôi cam kết không phát sinh thêm chi phí, đồng thời bảo hành dài hạn cho mọi dịch vụ.</p>
       </div>
 
-      <div className={s.listImg}>
-        <div className={s.img}>
-          <Image src={sua_chua_dien} alt='sửa chữa điện tại hà nội' />
+      <div>
+        <div className={s.listImg}>
+          <div className={s.img}>
+            <Image src={sua_chua_dien} alt='sửa chữa điện tại hà nội' />
+          </div>
+          <div className={s.img}>
+            <Image src={sua_dien} alt='sửa chữa điện nước' />
+          </div>
+          <div className={s.img}>
+            <Image src={sua_dien_hn} alt='sửa chữa điện nước hà nội' />
+          </div>
         </div>
-        <div className={s.img}>
-          <Image src={sua_dien} alt='sửa chữa điện nước' />
-        </div>
-        <div className={s.img}>
-          <Image src={sua_dien_hn} alt='sửa chữa điện nước hà nội' />
-        </div>
+        <p style={{ fontSize: '14px', fontStyle: 'italic', textAlign: 'center' }}>Hình ảnh: Sửa chữa điện tại quận Cầu Giấy</p>
       </div>
 
       <h2 className={s.titleH2}>Dịch vụ Điện Nước Tại Hà Nội – Chuyên nghiệp, Uy tín và Giá cả Hợp lý</h2>
@@ -166,16 +171,19 @@ export default function HomePage() {
 
       <p>Chúng tôi cam kết mang lại cho bạn dịch vụ sửa chữa điện nước chất lượng nhất, với đội ngũ thợ sửa chữa lành nghề. Đặc biệt, chúng tôi cung cấp dịch vụ sửa chữa tại nhà, giúp bạn tiết kiệm thời gian và công sức. Dù bạn ở bất kỳ khu vực nào tại Hà Nội, chúng tôi sẽ đến tận nơi để kiểm tra và sửa chữa thiết bị điện nước của bạn.</p>
 
-      <div className={s.listImg}>
-        <div className={s.img}>
-          <Image src={sua_binh_nong_lanh} alt='sửa chữa bình nóng lạnh' />
+      <div>
+        <div className={s.listImg}>
+          <div className={s.img}>
+            <Image src={sua_binh_nong_lanh} alt='sửa chữa bình nóng lạnh' />
+          </div>
+          <div className={s.img}>
+            <Image src={suaMayGiat} alt='sửa chữa máy giặt' />
+          </div>
+          <div className={s.img}>
+            <Image src={suaMayLocNuoc} alt='sửa chữa máy lọc nước' />
+          </div>
         </div>
-        <div className={s.img}>
-          <Image src={suaMayGiat} alt='sửa chữa máy giặt' />
-        </div>
-        <div className={s.img}>
-          <Image src={suaMayLocNuoc} alt='sửa chữa máy lọc nước' />
-        </div>
+        <p style={{ fontSize: '14px', fontStyle: 'italic', textAlign: 'center' }}>Hình ảnh: Sửa chữa, thi công điện nước tại quận Hà Đông</p>
       </div>
 
       <h3 className={s.titleH2}>Những ưu điểm khi lựa chọn thợ sửa điện nước tại nhà của chúng tôi:</h3>
@@ -197,6 +205,7 @@ export default function HomePage() {
 
       <div className={s.singleImg}>
         <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_2} alt='sua dien nuoc ha noi' />
+        <p>Hình ảnh: Thi công điện tại quận Tây Hồ</p>
       </div>
 
       <h5 className={s.titleH2}>Quy trình sửa chữa điện nước chuyên nghiệp</h5>
@@ -213,6 +222,7 @@ export default function HomePage() {
 
       <div className={s.singleImg}>
         <Image width={400} height={500} src={sua_dien_nuoc_tai_ha_noi} alt='sua dien nuoc ha noi' />
+        <p>Hình ảnh: Thi công điện tại quận Tây Hồ</p>
       </div>
 
       <h6 className={s.titleH2}>Chi phí sửa điện nước giá rẻ, dễ tiếp cận</h6>
@@ -221,6 +231,7 @@ export default function HomePage() {
       <p>Chúng tôi luôn đảm bảo cung cấp dịch vụ giá tốt, chất lượng cao, minh bạch về chi phí và bảo hành lâu dài. Vì vậy mà các bạn hãy hoàn toàn yên tâm tin tưởng vào chúng tôi.</p>
       <div className={s.singleImg}>
         <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_3} alt='sua dien nuoc ha noi' />
+        <p>Hình ảnh: Sửa máy bơm tại quận Hoàn Kiếm</p>
       </div>
       <p>Với phương châm Nhanh chóng - An toàn - Tin cậy, Điện Nước <span>Doãn Anh</span> chính là lựa chọn hàng đầu dành cho bạn khi hệ thống điện nước không may gặp sự cố. Hãy liên hệ với dịch vụ sửa chữa điện nước tại Hà Nội của chúng tôi để được tư vấn và phục vụ chu đáo, đảm bảo hệ thống điện nước nhà bạn luôn hoạt động bình thường, ổn định, an toàn, tiết kiệm.</p>
       <div>

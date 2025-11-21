@@ -235,6 +235,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 10px;
   max-width: 100%;
 
   img {
@@ -242,6 +244,11 @@
     max-width: 600px;
     height: fit-content;
     border-radius: 6px;
+  }
+
+  p {
+    font-style: italic;
+    font-size: 14px;
   }
 }
 
