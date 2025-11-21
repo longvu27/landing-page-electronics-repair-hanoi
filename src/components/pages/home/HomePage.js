@@ -205,7 +205,7 @@ export default function HomePage() {
 
       <div className={s.singleImg}>
         <Image width={400} height={500} src={sua_dien_nuoc_ha_noi_2} alt='sua dien nuoc ha noi' />
-        <p>Hình ảnh: Thi công điện tại quận Tây Hồ</p>
+        <p>Hình ảnh: Thi công điện tại quận Hai Bà Trưng</p>
       </div>
 
       <h5 className={s.titleH2}>Quy trình sửa chữa điện nước chuyên nghiệp</h5>
