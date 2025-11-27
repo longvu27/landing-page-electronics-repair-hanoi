@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
     <html lang="vi">
       <head>
         {/* GA4 Global Site Tag */}
-        <Script
+        {/* <Script
           src={`https://www.googletagmanager.com/gtag/js?id=G-5PCGKB40YK`}
           strategy="afterInteractive"
         />
@@ -72,11 +72,31 @@ export default function RootLayout({ children }) {
             gtag('js', new Date());
             gtag('config', 'G-5PCGKB40YK');
           `}
+        </Script> */}
+
+        {/* GA4 + Google Tag */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-ME8QSE01WL"
+        />
+
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            // GA4
+            gtag('config', 'G-ME8QSE01WL');
+
+            // Google Ads Conversion
+            gtag('config', 'AW-17631756339');
+          `}
         </Script>
       </head>
       <body className={roboto.variable}>
-        <a href="https://www.facebook.com/anh.nguyen.173196" width={0} height={0}/>
-        <a href="https://diennuocdienlanhthanhhoa.com/" width={0} height={0}/>
+        <a href="https://www.facebook.com/anh.nguyen.173196" width={0} height={0} />
+        <a href="https://diennuocdienlanhthanhhoa.com/" width={0} height={0} />
         <Layout>
           {children}
         </Layout>
@@ -102,3 +122,14 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+{/* 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ME8QSE01WL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ME8QSE01WL');
+</script> 
+*/}
