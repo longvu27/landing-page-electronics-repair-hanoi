@@ -93,6 +93,28 @@ export default function RootLayout({ children }) {
             gtag('config', 'AW-17631756339');
           `}
         </Script>
+        {/* Event snippet for Nhấp để gọi conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button.  */}
+        {/* <Script id="google-ads-conversion" strategy="afterInteractive">
+          {`
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) !== 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17631756339/-SQ1CJur9ccbELOAvddB',
+        'value': 1.0,
+        'currency': 'VND',
+        'event_callback': callback
+      });
+      return false;
+    }
+  `}
+        </Script> */}
+
+
       </head>
       <body className={roboto.variable}>
         <a href="https://www.facebook.com/anh.nguyen.173196" width={0} height={0} />
