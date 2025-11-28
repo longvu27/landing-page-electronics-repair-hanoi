@@ -60,24 +60,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="vi">
       <head>
-        {/* GA4 Global Site Tag */}
-        {/* <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-5PCGKB40YK`}
-          strategy="afterInteractive"
-        />
-        <Script id="ga4-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-5PCGKB40YK');
-          `}
-        </Script> */}
-
         {/* GA4 + Google Tag */}
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-ME8QSE01WL"
+          src="https://www.googletagmanager.com/gtag/js?id=G-5PCGKB40YK"
         />
 
         <Script id="gtag-init" strategy="afterInteractive">
@@ -87,34 +73,12 @@ export default function RootLayout({ children }) {
             gtag('js', new Date());
             
             // GA4
-            gtag('config', 'G-ME8QSE01WL');
+            gtag('config', 'G-5PCGKB40YK');
 
             // Google Ads Conversion
             gtag('config', 'AW-17631756339');
           `}
         </Script>
-        {/* Event snippet for Nhấp để gọi conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button.  */}
-        {/* <Script id="google-ads-conversion" strategy="afterInteractive">
-          {`
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof(url) !== 'undefined') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'conversion', {
-        'send_to': 'AW-17631756339/-SQ1CJur9ccbELOAvddB',
-        'value': 1.0,
-        'currency': 'VND',
-        'event_callback': callback
-      });
-      return false;
-    }
-  `}
-        </Script> */}
-
-
       </head>
       <body className={roboto.variable}>
         <a href="https://www.facebook.com/anh.nguyen.173196" width={0} height={0} />
