@@ -14,6 +14,9 @@ import suaMayBomNuoc from '@/assets/images/dienNuoc/sua_may_bom_nuoc.jpg';
 import sua_chua_dien from '@/assets/images/dienNuoc/sua_chua_dien.jpg';
 import sua_dien_hn from '@/assets/images/dienNuoc/sua_dien_hn.png';
 import sua_dien from '@/assets/images/dienNuoc/sua_dien.png';
+import day_dien_am_tuong from '@/assets/images/dienNuoc/day_dien_am_tuong.webp';
+import thi_cong_duong_ong_nuoc from '@/assets/images/dienNuoc/thi_cong_duong_ong_nuoc.jpg';
+import thi_cong_dien_nuoc_6 from '@/assets/images/dienNuoc/thi_cong_dien_nuoc_6.jpg';
 import sua_dien_ha_noi_1 from '@/assets/images/home/sua_dien_ha_noi_1.jpg';
 import sua_dien_nuoc_ha_noi_1 from '@/assets/images/home/sua_dien_nuoc_ha_noi_1.jpg';
 import sua_dien_nuoc_ha_noi_2 from '@/assets/images/home/sua_dien_nuoc_ha_noi_2.jpg';
@@ -174,13 +177,13 @@ export default function HomePage() {
       <div>
         <div className={s.listImg}>
           <div className={s.img}>
-            <Image src={sua_binh_nong_lanh} alt='sửa chữa bình nóng lạnh' />
+            <Image src={thi_cong_dien_nuoc_6} alt='thi công điện nước' />
           </div>
           <div className={s.img}>
-            <Image src={suaMayGiat} alt='sửa chữa máy giặt' />
+            <Image src={thi_cong_duong_ong_nuoc} alt='thi công đường ống nước' />
           </div>
           <div className={s.img}>
-            <Image src={suaMayLocNuoc} alt='sửa chữa máy lọc nước' />
+            <Image src={day_dien_am_tuong} alt='thi công điện âm tường' />
           </div>
         </div>
         <p style={{ fontSize: '14px', fontStyle: 'italic', textAlign: 'center' }}>Hình ảnh: Sửa chữa, thi công điện nước tại quận Hà Đông</p>
