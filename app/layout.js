@@ -121,6 +121,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "telephone": "+84964701333",
               "openingHours": "Mo-Su 08:00-22:00",
               "description": "Sửa chữa điện nước tại nhà Hà Nội uy tín. Thợ tay nghề cao, có mặt trong 30 phút, giá minh bạch, bảo hành dài hạn. Gọi ngay 0964701333!",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "2.527"
+              }
             })
           }}
         />
