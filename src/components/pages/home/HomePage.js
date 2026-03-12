@@ -23,6 +23,8 @@ import sua_dien_nuoc_ha_noi_2 from '@/assets/images/home/sua_dien_nuoc_ha_noi_2.
 import sua_dien_nuoc_ha_noi_3 from '@/assets/images/home/sua_dien_nuoc_ha_noi_3.jpg';
 import sua_dien_nuoc_tai_ha_noi from '@/assets/images/home/sua_dien_nuoc_tai_ha_noi.jpg';
 
+import sieu_am_ro_ri_nuoc from '@/assets/images/dienNuoc/sieu_am_ro_ri_nuoc.png';
+
 import about_us from '@/assets/images/home/about_us.png';
 import { trackingCallNow } from '@/src/service/tracking';
 import ic_tick from '@/assets/images/icons/ic_tick.svg';
@@ -132,13 +134,31 @@ export default function HomePage() {
         </div>
       </div>
 
+      <section className={s.content}>
+        <div className={s.singleImg}>
+          <Image width={400} height={500} src={sieu_am_ro_ri_nuoc} alt='Thợ siêu âm tìm rò rỉ nước tại Hà Nội' />
+          <p>Hình ảnh: Thợ siêu âm tìm rò rỉ nước tại Hà Nội</p>
+        </div>
+
+        <h1 className={s.titleH2}>Siêu Âm Dò Tìm Rò Rỉ Ống Nước Tại Hà Nội – Phát Hiện Nhanh, Chính Xác, Không Đục Phá</h1>
+        <p>Doãn Anh chuyên cung cấp <span style={{ color: '#ed1c24' }}>dịch vụ dò tìm rò rỉ nước tại hà nội</span>. Kiểm tra đường ống nước bị bể ngầm và sửa chữa đường ống nước bể (vỡ) ngầm gây thất thoát nước cho hộ gia đình</p>
+
+        <p>👉 Nếu không xử lý kịp thời, rò rỉ nước có thể gây <span>hư hỏng kết cấu công trình, nấm mốc, hỏng sàn gỗ, thấm tường</span>, thậm chí làm giảm tuổi thọ của cả ngôi nhà.</p>
+
+        <p>Thay vì phải <span>đục phá tường, sàn nhà</span> để tìm chỗ rò rỉ, hiện nay công nghệ <span>Siêu Âm Dò Tìm Rò Rỉ Ống Nước Tại Hà Nội</span> giúp phát hiện vị trí rò rỉ chính xác đến từng centimet mà không cần phá dỡ công trình.</p>
+
+        <p>Chỉ sau <span>30 – 60 phút</span> kiểm tra, kỹ thuật viên có thể xác định vị trí rò rỉ và đưa ra phương án sửa chữa nhanh chóng, tiết kiệm chi phí tối đa cho khách hàng.</p>
+
+        <p>📍 Đừng lo! Điện Nước Doãn Anh – với 15+ năm kinh nghiệm, chuyên cung cấp <span style={{ color: '#ed1c24' }}>dịch vụ dò tìm rò rỉ nước tại hà nội</span> hà nội bằng công nghệ siêu âm hiện đại, không đục phá, chính xác đến từng cm!</p>
+      </section>
+
       <div className={s.singleImg}>
         <Image width={400} height={500} src={sua_dien_ha_noi_1} alt='sua dien nuoc ha noi' />
         <p>Hình ảnh: Sửa chữa điện tại quận Cầu Giấy</p>
       </div>
 
       <div className={s.content}>
-        <h1 className={s.titleH2}>Thợ sửa điện nước tại nhà Hà Nội hỗ trợ nhanh 24/7</h1>
+        <h2 className={s.titleH2}>Thợ sửa điện nước tại nhà Hà Nội hỗ trợ nhanh 24/7</h2>
         <p>Nếu bạn đang gặp sự cố với các thiết bị điện nước tại nhà hoặc văn phòng, đừng ngần ngại liên hệ ngay với chúng tôi. Gọi ngay để được tư vấn và nhận dịch vụ sửa chữa nhanh chóng, uy tín.</p>
 
         <div className={s.singleImg}>
