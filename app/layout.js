@@ -124,7 +124,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.9",
-                "reviewCount": "2527"
+                "reviewCount": "2527",
+                "bestRating": "5",
+                "ratingCount": "2527",
               }
             })
           }}
