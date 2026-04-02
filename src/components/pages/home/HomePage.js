@@ -24,6 +24,9 @@ import sua_dien_nuoc_ha_noi_3 from '@/assets/images/home/sua_dien_nuoc_ha_noi_3.
 import sua_dien_nuoc_tai_ha_noi from '@/assets/images/home/sua_dien_nuoc_tai_ha_noi.jpg';
 
 import sieu_am_ro_ri_nuoc from '@/assets/images/dienNuoc/sieu_am_ro_ri_nuoc.png';
+import sieu_am_ro_ri_nuoc_1 from '@/assets/images/dienNuoc/sieu_am_ro_ri_nuoc_1.png';
+import sieu_am_ro_ri_nuoc_2 from '@/assets/images/dienNuoc/sieu_am_ro_ri_nuoc_2.png';
+import sieu_am_ro_ri_nuoc_3 from '@/assets/images/dienNuoc/sieu_am_ro_ri_nuoc_3.png';
 
 import about_us from '@/assets/images/home/about_us.png';
 import { trackingCallNow } from '@/src/service/tracking';
@@ -35,15 +38,20 @@ export default function HomePage() {
 
   const dataCardBlog = [
     {
+      title: 'Siêu âm dò tìm rò rỉ nước',
+      img: sieu_am_ro_ri_nuoc,
+      link: '/dien-nuoc/sieu-am-ro-ri-nuoc',
+    },
+    {
       title: 'Sửa chữa điện nước từ A-Z',
       img: suaChuaDienNuoc,
       link: '/dien-nuoc/sua-chua-dien-nuoc',
     },
-    {
-      title: 'Vệ sinh máy giặt',
-      img: img_card_ve_sinh_may_giat,
-      link: '/dien-nuoc/ve-sinh-may-giat',
-    },
+    // {
+    //   title: 'Vệ sinh máy giặt',
+    //   img: img_card_ve_sinh_may_giat,
+    //   link: '/dien-nuoc/ve-sinh-may-giat',
+    // },
     {
       title: 'Sửa máy lọc nước',
       img: img_card_sua_may_loc_nuoc,
@@ -67,12 +75,12 @@ export default function HomePage() {
   ]
 
   const service = [
+    ' Siêu âm rò nước trong tường',
     ' Sửa chữa điện',
     ' Sửa chữa nước, ống nước',
     ' Sửa máy bơm tại nhà',
     ' Sửa bình tắm, nóng lạnh',
     ' Sửa bóng đèn, quạt điện',
-    ' Siêu âm rò nước trong tường',
   ]
 
   const customer = [
@@ -141,7 +149,7 @@ export default function HomePage() {
         </div>
 
         <h1 className={s.titleH2}>Siêu Âm Dò Tìm Rò Rỉ Ống Nước Tại Hà Nội – Phát Hiện Nhanh, Chính Xác, Không Đục Phá</h1>
-        <p>Doãn Anh chuyên cung cấp <span style={{ color: '#ed1c24' }}>dịch vụ dò tìm rò rỉ nước tại hà nội</span>. Kiểm tra đường ống nước bị bể ngầm và sửa chữa đường ống nước bể (vỡ) ngầm gây thất thoát nước cho hộ gia đình</p>
+        <p>Doãn Anh chuyên cung cấp <span>dịch vụ dò tìm rò rỉ nước tại hà nội</span>. Kiểm tra đường ống nước bị bể ngầm và sửa chữa đường ống nước bể (vỡ) ngầm gây thất thoát nước cho hộ gia đình</p>
 
         <p>👉 Nếu không xử lý kịp thời, rò rỉ nước có thể gây <span>hư hỏng kết cấu công trình, nấm mốc, hỏng sàn gỗ, thấm tường</span>, thậm chí làm giảm tuổi thọ của cả ngôi nhà.</p>
 
@@ -149,12 +157,26 @@ export default function HomePage() {
 
         <p>Chỉ sau <span>30 – 60 phút</span> kiểm tra, kỹ thuật viên có thể xác định vị trí rò rỉ và đưa ra phương án sửa chữa nhanh chóng, tiết kiệm chi phí tối đa cho khách hàng.</p>
 
-        <p>📍 Đừng lo! Điện Nước Doãn Anh – với 15+ năm kinh nghiệm, chuyên cung cấp <span style={{ color: '#ed1c24' }}>dịch vụ dò tìm rò rỉ nước tại hà nội</span> hà nội bằng công nghệ siêu âm hiện đại, không đục phá, chính xác đến từng cm!</p>
+        <p>📍 Đừng lo! Điện Nước Doãn Anh – với 15+ năm kinh nghiệm, chuyên cung cấp <span>dịch vụ dò tìm rò rỉ nước tại hà nội</span> hà nội bằng công nghệ siêu âm hiện đại, không đục phá, chính xác đến từng cm!</p>
       </section>
 
-      <div className={s.singleImg}>
+      {/* <div className={s.singleImg}>
         <Image width={400} height={500} src={sua_dien_ha_noi_1} alt='sua dien nuoc ha noi' />
         <p>Hình ảnh: Sửa chữa điện tại quận Cầu Giấy</p>
+      </div> */}
+      <div>
+        <div className={s.listImg}>
+          <div className={`${s.img} ${s.heightAuto}`}>
+            <Image src={sieu_am_ro_ri_nuoc_1} alt='Siêu âm tìm rò rỉ nước tại Cầu Giấy' />
+          </div>
+          <div className={`${s.img} ${s.heightAuto}`}>
+            <Image src={sieu_am_ro_ri_nuoc_2} alt='Siêu âm tìm rò rỉ nước tại Đống Đa' />
+          </div>
+          <div className={`${s.img} ${s.heightAuto}`}>
+            <Image src={sieu_am_ro_ri_nuoc_3} alt='Siêu âm tìm rò rỉ nước tại Hoàng Mai' />
+          </div>
+        </div>
+        <p style={{ fontSize: '14px', fontStyle: 'italic', textAlign: 'center' }}>Hình ảnh: Thợ siêu âm tìm rò rỉ nước tại Hà Nội</p>
       </div>
 
       <div className={s.content}>
