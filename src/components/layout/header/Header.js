@@ -6,6 +6,7 @@ import phone from '@/assets/images/icons/phone.svg';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { trackingCallNow } from '@/src/service/tracking';
+import Link from 'next/link';
 
 export default function Header() {
   const router = useRouter();
@@ -13,15 +14,15 @@ export default function Header() {
   return (
     <div className={s.header}>
       <div className={`width-container ${s.container}`}>
-        <div className={s.left}>
-          <div className={s.logo} onClick={() => router.push('/')}>
+        <Link href={'/'} className={s.left}>
+          <div className={s.logo}>
             <Image src={logo} alt='logo' />
           </div>
           <div className={s.text}>
             <div className={s.title}>Điện Nước Hà Nội</div>
             <div className={s.desc}>Sửa Chữa Điện Nước Chuyên Nghiệp</div>
           </div>
-        </div>
+        </Link>
         <div className={s.right}>
           <div className={s.item}>
             <Image src={location} alt='location' />

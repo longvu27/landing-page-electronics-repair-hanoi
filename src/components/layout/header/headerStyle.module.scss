@@ -21,6 +21,8 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  text-decoration: none;
+  cursor: pointer;
 
   .text {
     display: flex;
@@ -31,12 +33,16 @@
   }
 
   .title {
+    color: #ffffff;
+    text-decoration: none;
     font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
   }
 
   .desc {
+    color: #ffffff;
+    text-decoration: none;
     font-size: 16px;
   }
 }

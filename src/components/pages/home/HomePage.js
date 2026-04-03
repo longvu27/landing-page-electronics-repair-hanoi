@@ -149,7 +149,7 @@ export default function HomePage() {
         </div>
 
         <h1 className={s.titleH2}>Siêu Âm Dò Tìm Rò Rỉ Ống Nước Tại Hà Nội – Phát Hiện Nhanh, Chính Xác, Không Đục Phá</h1>
-        <p>Doãn Anh chuyên cung cấp <span>dịch vụ dò tìm rò rỉ nước tại hà nội</span>. Kiểm tra đường ống nước bị bể ngầm và sửa chữa đường ống nước bể (vỡ) ngầm gây thất thoát nước cho hộ gia đình</p>
+        <p>Doãn Anh chuyên cung cấp <Link href={'/dien-nuoc/sieu-am-ro-ri-nuoc'}><span>dịch vụ dò tìm rò rỉ nước tại hà nội</span></Link>. Kiểm tra đường ống nước bị bể ngầm và sửa chữa đường ống nước bể (vỡ) ngầm gây thất thoát nước cho hộ gia đình</p>
 
         <p>👉 Nếu không xử lý kịp thời, rò rỉ nước có thể gây <span>hư hỏng kết cấu công trình, nấm mốc, hỏng sàn gỗ, thấm tường</span>, thậm chí làm giảm tuổi thọ của cả ngôi nhà.</p>
 
