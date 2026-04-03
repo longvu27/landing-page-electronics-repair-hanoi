@@ -14,7 +14,7 @@ export const metadata = {
   metadataBase: new URL(`https://dichvudiennuochanoi247.com/`),
   title: "Sửa điện nước tại nhà Hà Nội - Thợ chuyên nghiệp, uy tín",
   description: "Sửa chữa điện nước tại nhà Hà Nội uy tín. Thợ tay nghề cao, có mặt trong 30 phút, giá minh bạch, bảo hành dài hạn. Gọi ngay 0964701333!",
-  keywords: "sửa chữa điện nước, sửa tivi, máy lọc nước, máy bơm, máy giặt, bình nóng lạnh",
+  keywords: "dò tìm rò rỉ nước, sửa chữa điện nước, sửa tivi, máy lọc nước, máy bơm, máy giặt, bình nóng lạnh",
   icons: {
     icon: [
       {
