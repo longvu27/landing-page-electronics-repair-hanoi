@@ -10,8 +10,14 @@ export default function SieuAmRoRiNuoc() {
     <div className={s.wrapper}>
       <section className={s.content}>
         <div className={s.singleImg}>
-          <Image width={400} height={500} src={sieu_am_ro_ri_nuoc} alt='Thợ siêu âm tìm rò rỉ nước tại Hà Nội' />
-          <p>Hình ảnh: Thợ siêu âm tìm rò rỉ nước tại Hà Nội</p>
+          <video width={400} height={600} controls autoPlay loop muted>
+            <source
+              src="/videos/do_tim_duong_ong_nuoc_ro_ri.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <p>Video: Thợ siêu âm dò tìm rò rỉ nước tại Hà Nội</p>
         </div>
 
         <h1 className={s.titleH2}>Siêu Âm Dò Tìm Rò Rỉ Ống Nước Tại Hà Nội – Phát Hiện Nhanh, Chính Xác, Không Đục Phá</h1>
@@ -26,8 +32,9 @@ export default function SieuAmRoRiNuoc() {
         <p>📍 Đừng lo! Điện Nước Doãn Anh – với 15+ năm kinh nghiệm, chuyên cung cấp <span>dịch vụ dò tìm rò rỉ nước tại hà nội</span> hà nội bằng công nghệ siêu âm hiện đại, không đục phá, chính xác đến từng cm!</p>
       </section>
       <div className={s.singleImg}>
-        <Image width={400} height={500} src={sieu_am_ro_ri_nuoc_1} alt='sieu am ro ri nuoc tai cau giay' />
-        <p>Hình ảnh: Siêu âm dò tìm rò rỉ ống nước tại Cầu Giấy</p>
+        <Image width={400} height={500} src={sieu_am_ro_ri_nuoc} alt='Thợ siêu âm tìm rò rỉ nước tại Hà Nội' />
+        <p>Hình ảnh: Thợ siêu âm tìm rò rỉ nước tại Hà Nội</p>
+
       </div>
       <div className={s.content}>
         <h2 className={s.titleH2}>Dấu hiệu của việc đường nước bị rò rỉ</h2>
@@ -54,8 +61,8 @@ export default function SieuAmRoRiNuoc() {
       </div>
 
       <div className={s.singleImg}>
-        <Image width={400} height={500} src={sieu_am_ro_ri_nuoc_3} alt='sieu am ro ri nuoc tai ha noi' />
-        <p>Hình ảnh: Siêu âm dò tìm rò rỉ ống nước tại Hà Nội</p>
+        <Image width={400} height={500} src={sieu_am_ro_ri_nuoc_1} alt='sieu am ro ri nuoc tai cau giay' />
+        <p>Hình ảnh: Siêu âm dò tìm rò rỉ ống nước tại Cầu Giấy</p>
       </div>
 
       <div className={s.content}>
