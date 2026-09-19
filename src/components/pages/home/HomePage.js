@@ -29,6 +29,7 @@ import sieu_am_ro_ri_nuoc_2 from '@/assets/images/dienNuoc/sieu_am_ro_ri_nuoc_2.
 import sieu_am_ro_ri_nuoc_3 from '@/assets/images/dienNuoc/sieu_am_ro_ri_nuoc_3.png';
 
 import about_us from '@/assets/images/home/about_us.png';
+import about_us_2 from '@/assets/images/home/about_us.jpg';
 import { trackingCallNow } from '@/src/service/tracking';
 import ic_tick from '@/assets/images/icons/ic_tick.svg';
 import ic_point from '@/assets/images/icons/ic_point.svg';
@@ -96,9 +97,9 @@ export default function HomePage() {
     <div className={s.wrapper}>
       <div className={s.singleImg}>
         <Image
-          src={about_us}
+          src={about_us_2}
           alt='about_us'
-          style={{ maxWidth: '250px', height: 'fit-content' }}
+          style={{ maxWidth: '500px', height: 'fit-content' }}
           priority
           fetchPriority="high"
           // placeholder="blur"
